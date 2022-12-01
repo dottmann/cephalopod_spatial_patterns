@@ -1,0 +1,26 @@
+{
+    "id": "30D0A65A",
+    "path": "~/Online for git/cephalopod_spatial_patterns/scripts - data processing/cleanDATRAS_with_catchability_cephalopod.R",
+    "project_path": "scripts - data processing/cleanDATRAS_with_catchability_cephalopod.R",
+    "type": "r_source",
+    "hash": "3587235057",
+    "contents": "",
+    "dirty": false,
+    "created": 1669890231263.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "721,0",
+        "scrollLine": "699"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1669900329,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1669900329802,
+    "read_only": false,
+    "read_only_alternatives": []
+}
