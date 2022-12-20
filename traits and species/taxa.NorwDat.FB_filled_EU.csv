@@ -1,0 +1,501 @@
+family,genus,species,lme,uni,mergeLME,fao,level,FB_E_Code,source,type.length,taxo,b,a
+Ammodytidae,NA,,22,Ammodytidae NA  22,22,27,family,139,fb,TL,fam-FAO,2.559999943,0.0098
+Ammodytidae,NA,,20,Ammodytidae NA  20,22,27,family,139,fb,TL,fam-FAO,2.559999943,0.0098
+Ammodytidae,NA,,21,Ammodytidae NA  21,22,27,family,139,fb,TL,fam-FAO,2.559999943,0.0098
+Anarhichadidae,NA,,20,Anarhichadidae NA  20,22,27,family,139,fb,TL,fam-LME,3.11500001,0.006
+Anarhichadidae,NA,,22,Anarhichadidae NA  22,22,27,family,139,fb,TL,fam-LME,3.11500001,0.006
+Anarhichadidae,NA,,21,Anarhichadidae NA  21,22,27,family,139,fb,TL,fam-LME,3.11500001,0.006
+Argentinidae,NA,,22,Argentinidae NA  22,22,27,family,139,fb,TL,fam-LME,3.052999973,0.0053
+Argentinidae,NA,,21,Argentinidae NA  21,22,27,family,139,fb,TL,fam-LME,3.052999973,0.0053
+Bothidae,NA,,22,Bothidae NA  22,22,27,family,139,fb,TL,fam-FAO,3.147666673,0.0080175
+Callionymidae,NA,,22,Callionymidae NA  22,22,27,family,139,fb,TL,fam-LME,2.677666664,0.0118
+Callionymidae,NA,,21,Callionymidae NA  21,22,27,family,139,fb,TL,fam-LME,2.677666664,0.0118
+Callionymidae,NA,,20,Callionymidae NA  20,22,27,family,139,fb,TL,fam-LME,2.677666664,0.0118
+Cottidae,NA,,20,Cottidae NA  20,22,27,family,139,fb,TL,fam-LME,3.194500029,0.009925
+Cottidae,NA,,22,Cottidae NA  22,22,27,family,139,fb,TL,fam-LME,3.194500029,0.009925
+Cottidae,NA,,21,Cottidae NA  21,22,27,family,139,fb,TL,fam-LME,3.194500029,0.009925
+Cyclopteridae,NA,,20,Cyclopteridae NA  20,22,27,family,139,fb,TL,fam-LME,2.938999891,0.058699999
+Cyclopteridae,NA,,21,Cyclopteridae NA  21,22,27,family,139,fb,TL,fam-LME,2.938999891,0.058699999
+Gasterosteidae,NA,,20,Gasterosteidae NA  20,22,27,family,139,fb,TL,fam-LME,2.940999985,0.008366667
+Gobiidae,NA,,22,Gobiidae NA  22,22,27,family,139,fb,TL,fam-LME,3,0.0111
+Gobiidae,NA,,21,Gobiidae NA  21,22,27,family,139,fb,TL,fam-LME,3,0.0111
+Gobiidae,NA,,20,Gobiidae NA  20,22,27,family,139,fb,TL,fam-LME,3,0.0111
+Liparidae,NA,,20,Liparidae NA  20,22,27,family,139,fb,TL,fam-Ocean,3.148568735,0.015140559
+Liparidae,NA,,21,Liparidae NA  21,22,27,family,139,fb,TL,fam-Ocean,3.148568735,0.015140559
+Lophiidae,NA,,22,Lophiidae NA  22,22,27,family,139,fb,TL,fam-LME,2.813999971,0.0276
+Myctophidae,NA,,20,Myctophidae NA  20,22,27,family,230,fb,TL,fam-LME,2.980000019,0.0051
+Myctophidae,NA,,21,Myctophidae NA  21,22,27,family,230,fb,TL,fam-LME,2.980000019,0.0051
+Myctophidae,NA,,22,Myctophidae NA  22,22,27,family,230,fb,TL,fam-LME,2.980000019,0.0051
+Petromyzontidae,NA,,22,Petromyzontidae NA  22,22,27,family,235,fb,TL,fam-LME,3,0.00173
+Rajidae,NA,,20,Rajidae NA  20,22,27,family,139,fb,TL,fam-LME,3.204285758,0.003191429
+Rajidae,NA,,21,Rajidae NA  21,22,27,family,139,fb,TL,fam-LME,3.204285758,0.003191429
+Rajidae,NA,,22,Rajidae NA  22,22,27,family,139,fb,TL,fam-LME,3.204285758,0.003191429
+Scorpaenidae,NA,,21,Scorpaenidae NA  21,22,27,family,235,fb,TL,fam-LME,2.942500055,0.0229
+Scorpaenidae,NA,,20,Scorpaenidae NA  20,22,27,family,235,fb,TL,fam-LME,2.942500055,0.0229
+Scorpaenidae,NA,,22,Scorpaenidae NA  22,22,27,family,235,fb,TL,fam-LME,2.942500055,0.0229
+Sternoptychidae,NA,,22,Sternoptychidae NA  22,22,27,family,232,fb,TL,fam-Ocean,3.183499972,0.015239642
+Stichaeidae,NA,,20,Stichaeidae NA  20,22,27,family,139,fb,TL,fam-Ocean,2.731414301,0.039298572
+Stichaeidae,NA,,22,Stichaeidae NA  22,22,27,family,139,fb,TL,fam-Ocean,2.731414301,0.039298572
+Stichaeidae,NA,,21,Stichaeidae NA  21,22,27,family,139,fb,TL,fam-Ocean,2.731414301,0.039298572
+Synaphobranchidae,NA,,20,Synaphobranchidae NA  20,22,27,family,232,fb,TL,fam-Ocean,3.186171429,0.002189857
+Syngnathidae,NA,,22,Syngnathidae NA  22,22,27,family,139,fb,TL,fam-LME,3.036800003,0.00024772
+Syngnathidae,NA,,20,Syngnathidae NA  20,22,27,family,139,fb,TL,fam-LME,3.036800003,0.00024772
+Triglidae,NA,,22,Triglidae NA  22,22,27,family,139,fb,TL,fam-LME,3.108461527,0.006703077
+Triglidae,NA,,20,Triglidae NA  20,22,27,family,139,fb,TL,fam-LME,3.108461527,0.006703077
+Zoarcidae,NA,,22,Zoarcidae NA  22,22,27,family,139,fb,TL,fam-LME,3.25,0.0019
+Zoarcidae,NA,,20,Zoarcidae NA  20,22,27,family,139,fb,TL,fam-LME,3.25,0.0019
+Zoarcidae,NA,,21,Zoarcidae NA  21,22,27,family,139,fb,TL,fam-LME,3.25,0.0019
+Ammodytidae,Ammodytes,,22,Ammodytidae Ammodytes  22,22,27,genus,139,fb,TL,gen-FAO,2.559999943,0.0098
+Ammodytidae,Ammodytes,,20,Ammodytidae Ammodytes  20,22,27,genus,139,fb,TL,gen-FAO,2.559999943,0.0098
+Argentinidae,Argentina,,22,Argentinidae Argentina  22,22,27,genus,139,fb,TL,gen-LME,3.052999973,0.0053
+Callionymidae,Callionymus,,22,Callionymidae Callionymus  22,22,27,genus,139,fb,TL,gen-LME,2.677666664,0.0118
+Liparidae,Careproctus,,20,Liparidae Careproctus  20,22,27,genus,233,fb,TL,gen-LME,3,0.0129
+Liparidae,Careproctus,,21,Liparidae Careproctus  21,22,27,genus,233,fb,TL,gen-LME,3,0.0129
+Liparidae,Careproctus,,22,Liparidae Careproctus  22,22,27,genus,233,fb,TL,gen-LME,3,0.0129
+Lotidae,Gaidropsarus,,20,Lotidae Gaidropsarus  20,22,27,genus,139,fb,TL,gen-LME,2.959000111,0.0108
+Lotidae,Gaidropsarus,,21,Lotidae Gaidropsarus  21,22,27,genus,139,fb,TL,gen-LME,2.959000111,0.0108
+Zoarcidae,Lycodes,,20,Zoarcidae Lycodes  20,22,27,genus,139,fb,TL,gen-FAO,4.095699787,1.00E-04
+Zoarcidae,Lycodes,,21,Zoarcidae Lycodes  21,22,27,genus,139,fb,TL,gen-FAO,4.095699787,1.00E-04
+Zoarcidae,Lycodes,,22,Zoarcidae Lycodes  22,22,27,genus,139,fb,TL,gen-FAO,4.095699787,1.00E-04
+Rajidae,Raja,,20,Rajidae Raja  20,22,27,genus,139,fb,TL,gen-LME,3.204285758,0.003191429
+Rajidae,Raja,,22,Rajidae Raja  22,22,27,genus,139,fb,TL,gen-LME,3.204285758,0.003191429
+Sebastidae,Sebastes,,20,Sebastidae Sebastes  20,22,27,genus,139,fb,TL,gen-LME,3.137000084,0.0115
+Sebastidae,Sebastes,,21,Sebastidae Sebastes  21,22,27,genus,139,fb,TL,gen-LME,3.137000084,0.0115
+Sebastidae,Sebastes,,22,Sebastidae Sebastes  22,22,27,genus,139,fb,TL,gen-LME,3.137000084,0.0115
+Syngnathidae,Syngnathus,,22,Syngnathidae Syngnathus  22,22,27,genus,139,fb,TL,gen-LME,3.233999968,0.0002023
+Syngnathidae,Syngnathus,,20,Syngnathidae Syngnathus  20,22,27,genus,139,fb,TL,gen-LME,3.233999968,0.0002023
+Cottidae,Triglops,,20,Cottidae Triglops  20,22,27,genus,139,fb,TL,gen-Ocean,3,0.008803328
+Cottidae,Triglops,,21,Cottidae Triglops  21,22,27,genus,139,fb,TL,gen-Ocean,3,0.008803328
+Cottidae,Triglops,,22,Cottidae Triglops  22,22,27,genus,139,fb,TL,gen-Ocean,3,0.008803328
+Gasterosteidae,Gasterosteus,aculeatus,20,Gasterosteidae Gasterosteus aculeatus 20,NA,NA,species,NA,NA,NA,NA,3,0.01
+Gasterosteidae,Gasterosteus,aculeatus,22,Gasterosteidae Gasterosteus aculeatus 22,NA,NA,species,NA,NA,NA,NA,3,0.01
+Zoarcidae,Lycodes,adolfi,20,Zoarcidae Lycodes adolfi 20,NA,NA,species,NA,NA,NA,NA,3,0.01
+Zoarcidae,Lycodes,adolfi,21,Zoarcidae Lycodes adolfi 21,NA,NA,species,NA,NA,NA,NA,3,0.01
+Clupeidae,Alosa,alosa,22,Clupeidae Alosa alosa 22,NA,NA,species,NA,NA,NA,NA,3,0.01
+Triakidae,Mustelus,asterias,22,Triakidae Mustelus asterias 22,NA,NA,species,NA,NA,NA,NA,3,0.01
+Liparidae,Liparis,bathyarcticus,20,Liparidae Liparis bathyarcticus 20,NA,NA,species,NA,NA,NA,NA,3,0.01
+Liparidae,Paraliparis,bathybius,20,Liparidae Paraliparis bathybius 20,NA,NA,species,NA,NA,NA,NA,3,0.01
+Liparidae,Paraliparis,bathybius,21,Liparidae Paraliparis bathybius 21,NA,NA,species,NA,NA,NA,NA,3,0.01
+Rajidae,Dipturus,batis,20,Rajidae Dipturus batis 20,NA,NA,species,NA,NA,NA,NA,3,0.01
+Rajidae,Dipturus,batis,22,Rajidae Dipturus batis 22,NA,NA,species,NA,NA,NA,NA,3,0.01
+Rajidae,Dipturus,batis,21,Rajidae Dipturus batis 21,NA,NA,species,NA,NA,NA,NA,3,0.01
+Gadidae,Gadus,chalcogrammus,20,Gadidae Gadus chalcogrammus 20,NA,NA,species,NA,NA,NA,NA,3,0.01
+Paralepididae,Paralepis,coregonoides,22,Paralepididae Paralepis coregonoides 22,NA,NA,species,NA,NA,NA,NA,3,0.01
+Paralepididae,Paralepis,coregonoides,20,Paralepididae Paralepis coregonoides 20,NA,NA,species,NA,NA,NA,NA,3,0.01
+Cyclopteridae,Eumicrotremus,derjugini,20,Cyclopteridae Eumicrotremus derjugini 20,NA,NA,species,NA,NA,NA,NA,3,0.01
+Zoarcidae,Lycodes,eudipleurostictus,20,Zoarcidae Lycodes eudipleurostictus 20,NA,NA,species,NA,NA,NA,NA,3,0.01
+Zoarcidae,Lycodes,eudipleurostictus,21,Zoarcidae Lycodes eudipleurostictus 21,NA,NA,species,NA,NA,NA,NA,3,0.01
+Zoarcidae,Lycodes,eudipleurostictus,22,Zoarcidae Lycodes eudipleurostictus 22,NA,NA,species,NA,NA,NA,NA,3,0.01
+Zoarcidae,Lycodonus,flagellicauda,22,Zoarcidae Lycodonus flagellicauda 22,NA,NA,species,NA,NA,NA,NA,3,0.01
+Zoarcidae,Lycodonus,flagellicauda,20,Zoarcidae Lycodonus flagellicauda 20,NA,NA,species,NA,NA,NA,NA,3,0.01
+Zoarcidae,Lycodes,frigidus,20,Zoarcidae Lycodes frigidus 20,NA,NA,species,NA,NA,NA,NA,3,0.01
+Gadidae,Arctogadus,glacialis,20,Gadidae Arctogadus glacialis 20,NA,NA,species,NA,NA,NA,NA,3,0.01
+Gadidae,Arctogadus,glacialis,21,Gadidae Arctogadus glacialis 21,NA,NA,species,NA,NA,NA,NA,3,0.01
+Clupeidae,Clupea,harengus harengus,22,Clupeidae Clupea harengus harengus 22,NA,NA,species,NA,NA,NA,NA,3,0.01
+Clupeidae,Clupea,harengus harengus,20,Clupeidae Clupea harengus harengus 20,NA,NA,species,NA,NA,NA,NA,3,0.01
+Clupeidae,Clupea,harengus harengus,21,Clupeidae Clupea harengus harengus 21,NA,NA,species,NA,NA,NA,NA,3,0.01
+Rajidae,Amblyraja,hyperborea,20,Rajidae Amblyraja hyperborea 20,NA,NA,species,NA,NA,NA,NA,3,0.01
+Rajidae,Amblyraja,hyperborea,21,Rajidae Amblyraja hyperborea 21,NA,NA,species,NA,NA,NA,NA,3,0.01
+Zoarcidae,Lycenchelys,kolthoffi,20,Zoarcidae Lycenchelys kolthoffi 20,NA,NA,species,NA,NA,NA,NA,3,0.01
+Zoarcidae,Lycenchelys,kolthoffi,21,Zoarcidae Lycenchelys kolthoffi 21,NA,NA,species,NA,NA,NA,NA,3,0.01
+Rajidae,Rajella,lintea,22,Rajidae Rajella lintea 22,NA,NA,species,NA,NA,NA,NA,3,0.01
+Rajidae,Rajella,lintea,20,Rajidae Rajella lintea 20,NA,NA,species,NA,NA,NA,NA,3,0.01
+Rajidae,Rajella,lintea,21,Rajidae Rajella lintea 21,NA,NA,species,NA,NA,NA,NA,3,0.01
+Liparidae,Liparis,liparis,20,Liparidae Liparis liparis 20,NA,NA,species,NA,NA,NA,NA,3,0.01
+Liparidae,Liparis,liparis,22,Liparidae Liparis liparis 22,NA,NA,species,NA,NA,NA,NA,3,0.01
+Liparidae,Liparis,liparis,21,Liparidae Liparis liparis 21,NA,NA,species,NA,NA,NA,NA,3,0.01
+Triglidae,Chelidonichthys,lucernus,22,Triglidae Chelidonichthys lucernus 22,NA,NA,species,NA,NA,NA,NA,3,0.01
+Triglidae,Chelidonichthys,lucernus,21,Triglidae Chelidonichthys lucernus 21,NA,NA,species,NA,NA,NA,NA,3,0.01
+Zoarcidae,Lycodes,luetkenii,20,Zoarcidae Lycodes luetkenii 20,NA,NA,species,NA,NA,NA,NA,3,0.01
+Callionymidae,Callionymus,maculatus,22,Callionymidae Callionymus maculatus 22,NA,NA,species,NA,NA,NA,NA,3,0.01
+Callionymidae,Callionymus,maculatus,21,Callionymidae Callionymus maculatus 21,NA,NA,species,NA,NA,NA,NA,3,0.01
+Callionymidae,Callionymus,maculatus,20,Callionymidae Callionymus maculatus 20,NA,NA,species,NA,NA,NA,NA,3,0.01
+Sebastidae,Sebastes,marinus,20,Sebastidae Sebastes marinus 20,NA,NA,species,NA,NA,NA,NA,3,0.01
+Cyclopteridae,Cyclopteropsis,mcalpini,20,Cyclopteridae Cyclopteropsis mcalpini 20,NA,NA,species,NA,NA,NA,NA,3,0.01
+Sebastidae,Sebastes,mentella,20,Sebastidae Sebastes mentella 20,NA,NA,species,NA,NA,NA,NA,3,0.01
+Sebastidae,Sebastes,mentella,21,Sebastidae Sebastes mentella 21,NA,NA,species,NA,NA,NA,NA,3,0.01
+Sebastidae,Sebastes,mentella,22,Sebastidae Sebastes mentella 22,NA,NA,species,NA,NA,NA,NA,3,0.01
+Liparidae,Careproctus,micropus,20,Liparidae Careproctus micropus 20,NA,NA,species,NA,NA,NA,NA,3,0.01
+Liparidae,Careproctus,micropus,21,Liparidae Careproctus micropus 21,NA,NA,species,NA,NA,NA,NA,3,0.01
+Gobiidae,Pomatoschistus,minutus,22,Gobiidae Pomatoschistus minutus 22,NA,NA,species,NA,NA,NA,NA,3,0.01
+Liparidae,Liparis,montagui,20,Liparidae Liparis montagui 20,NA,NA,species,NA,NA,NA,NA,3,0.01
+Zoarcidae,Lycenchelys,muraena,22,Zoarcidae Lycenchelys muraena 22,NA,NA,species,NA,NA,NA,NA,3,0.01
+Zoarcidae,Lycenchelys,muraena,20,Zoarcidae Lycenchelys muraena 20,NA,NA,species,NA,NA,NA,NA,3,0.01
+Zoarcidae,Lycenchelys,muraena,21,Zoarcidae Lycenchelys muraena 21,NA,NA,species,NA,NA,NA,NA,3,0.01
+Lotidae,Ciliata,mustela,20,Lotidae Ciliata mustela 20,NA,NA,species,NA,NA,NA,NA,3,0.01
+Triakidae,Mustelus,mustelus,22,Triakidae Mustelus mustelus 22,NA,NA,species,NA,NA,NA,NA,3,0.01
+Sebastidae,Sebastes,norvegicus,20,Sebastidae Sebastes norvegicus 20,NA,NA,species,NA,NA,NA,NA,3,0.01
+Sebastidae,Sebastes,norvegicus,21,Sebastidae Sebastes norvegicus 21,NA,NA,species,NA,NA,NA,NA,3,0.01
+Sebastidae,Sebastes,norvegicus,22,Sebastidae Sebastes norvegicus 22,NA,NA,species,NA,NA,NA,NA,3,0.01
+Cottidae,Triglops,nybelini,20,Cottidae Triglops nybelini 20,NA,NA,species,NA,NA,NA,NA,3,0.01
+Syngnathidae,Nerophis,ophidion,21,Syngnathidae Nerophis ophidion 21,NA,NA,species,NA,NA,NA,NA,3,0.01
+Syngnathidae,Nerophis,ophidion,22,Syngnathidae Nerophis ophidion 22,NA,NA,species,NA,NA,NA,NA,3,0.01
+Syngnathidae,Nerophis,ophidion,20,Syngnathidae Nerophis ophidion 20,NA,NA,species,NA,NA,NA,NA,3,0.01
+Zoarcidae,Lycodes,paamiuti,20,Zoarcidae Lycodes paamiuti 20,NA,NA,species,NA,NA,NA,NA,3,0.01
+Zoarcidae,Lycodes,pallidus,20,Zoarcidae Lycodes pallidus 20,NA,NA,species,NA,NA,NA,NA,3,0.01
+Zoarcidae,Lycodes,pallidus,22,Zoarcidae Lycodes pallidus 22,NA,NA,species,NA,NA,NA,NA,3,0.01
+Zoarcidae,Lycodes,pallidus,21,Zoarcidae Lycodes pallidus 21,NA,NA,species,NA,NA,NA,NA,3,0.01
+Liparidae,Rhodichthys,regina,20,Liparidae Rhodichthys regina 20,NA,NA,species,NA,NA,NA,NA,3,0.01
+Liparidae,Rhodichthys,regina,21,Liparidae Rhodichthys regina 21,NA,NA,species,NA,NA,NA,NA,3,0.01
+Callionymidae,Callionymus,reticulatus,22,Callionymidae Callionymus reticulatus 22,NA,NA,species,NA,NA,NA,NA,3,0.01
+Callionymidae,Callionymus,reticulatus,21,Callionymidae Callionymus reticulatus 21,NA,NA,species,NA,NA,NA,NA,3,0.01
+Zoarcidae,Gymnelus,retrodorsalis,20,Zoarcidae Gymnelus retrodorsalis 20,NA,NA,species,NA,NA,NA,NA,3,0.01
+Zoarcidae,Lycodes,rossi,20,Zoarcidae Lycodes rossi 20,NA,NA,species,NA,NA,NA,NA,3,0.01
+Zoarcidae,Lycodes,rossi,21,Zoarcidae Lycodes rossi 21,NA,NA,species,NA,NA,NA,NA,3,0.01
+Gadidae,Boreogadus,saida,20,Gadidae Boreogadus saida 20,NA,NA,species,NA,NA,NA,NA,3,0.01
+Gadidae,Boreogadus,saida,21,Gadidae Boreogadus saida 21,NA,NA,species,NA,NA,NA,NA,3,0.01
+Zoarcidae,Lycodes,seminudus,20,Zoarcidae Lycodes seminudus 20,NA,NA,species,NA,NA,NA,NA,3,0.01
+Zoarcidae,Lycodes,seminudus,21,Zoarcidae Lycodes seminudus 21,NA,NA,species,NA,NA,NA,NA,3,0.01
+Lotidae,Ciliata,septentrionalis,20,Lotidae Ciliata septentrionalis 20,NA,NA,species,NA,NA,NA,NA,3,0.01
+Argentinidae,Argentina,silus,20,Argentinidae Argentina silus 20,NA,NA,species,NA,NA,NA,NA,3,0.01
+Argentinidae,Argentina,silus,22,Argentinidae Argentina silus 22,NA,NA,species,NA,NA,NA,NA,3,0.01
+Argentinidae,Argentina,silus,21,Argentinidae Argentina silus 21,NA,NA,species,NA,NA,NA,NA,3,0.01
+Argentinidae,Argentina,sphyraena,22,Argentinidae Argentina sphyraena 22,NA,NA,species,NA,NA,NA,NA,3,0.01
+Argentinidae,Argentina,sphyraena,21,Argentinidae Argentina sphyraena 21,NA,NA,species,NA,NA,NA,NA,3,0.01
+Argentinidae,Argentina,sphyraena,20,Argentinidae Argentina sphyraena 20,NA,NA,species,NA,NA,NA,NA,3,0.01
+Arhynchobatidae,Bathyraja,spinicauda,20,Arhynchobatidae Bathyraja spinicauda 20,NA,NA,species,NA,NA,NA,NA,3,0.01
+Arhynchobatidae,Bathyraja,spinicauda,21,Arhynchobatidae Bathyraja spinicauda 21,NA,NA,species,NA,NA,NA,NA,3,0.01
+Arhynchobatidae,Bathyraja,spinicauda,22,Arhynchobatidae Bathyraja spinicauda 22,NA,NA,species,NA,NA,NA,NA,3,0.01
+Zoarcidae,Lycodes,squamiventer,20,Zoarcidae Lycodes squamiventer 20,NA,NA,species,NA,NA,NA,NA,3,0.01
+Zoarcidae,Lycodes,squamiventer,21,Zoarcidae Lycodes squamiventer 21,NA,NA,species,NA,NA,NA,NA,3,0.01
+Gobiidae,Lesueurigobius,suerii,22,Gobiidae Lesueurigobius suerii 22,NA,NA,species,NA,NA,NA,NA,3,0.01
+Gobiidae,Lesueurigobius,suerii,20,Gobiidae Lesueurigobius suerii 20,NA,NA,species,NA,NA,NA,NA,3,0.01
+Gobiidae,Lesueurigobius,suerii,21,Gobiidae Lesueurigobius suerii 21,NA,NA,species,NA,NA,NA,NA,3,0.01
+Zoarcidae,Lycenchelys,,20,Zoarcidae Lycenchelys  20,NA,NA,genus,NA,NA,NA,NA,3,0.01
+Carapidae,NA,,22,Carapidae NA  22,NA,NA,family,NA,NA,NA,NA,3,0.01
+Carapidae,NA,,21,Carapidae NA  21,NA,NA,family,NA,NA,NA,NA,3,0.01
+Gadidae,NA,,20,Gadidae NA  20,NA,NA,family,NA,NA,NA,NA,3,0.01
+Nemichthyidae,NA,,20,Nemichthyidae NA  20,NA,NA,family,NA,NA,NA,NA,3,0.01
+Paralepididae,NA,,20,Paralepididae NA  20,NA,NA,family,NA,NA,NA,NA,3,0.01
+Paralepididae,NA,,21,Paralepididae NA  21,NA,NA,family,NA,NA,NA,NA,3,0.01
+Paralepididae,NA,,22,Paralepididae NA  22,NA,NA,family,NA,NA,NA,NA,3,0.01
+Pleuronectidae,NA,,20,Pleuronectidae NA  20,NA,NA,family,NA,NA,NA,NA,3,0.01
+Pleuronectidae,NA,,22,Pleuronectidae NA  22,NA,NA,family,NA,NA,NA,NA,3,0.01
+Scyliorhinidae,NA,,22,Scyliorhinidae NA  22,NA,NA,family,NA,NA,NA,NA,3,0.01
+Scophthalmidae,Scophthalmus,,22,Scophthalmidae Scophthalmus  22,NA,NA,genus,NA,NA,NA,NA,3,0.01
+Scophthalmidae,Scophthalmus,,20,Scophthalmidae Scophthalmus  20,NA,NA,genus,NA,NA,NA,NA,3,0.01
+Squalidae,Squalus,acanthias,20,Squalidae Squalus acanthias 20,22,27,species,139,fb,TL,spe-Ocean,3.057269243,0.004718462
+Squalidae,Squalus,acanthias,22,Squalidae Squalus acanthias 22,22,27,species,139,fb,TL,spe-Ocean,3.057269243,0.004718462
+Squalidae,Squalus,acanthias,21,Squalidae Squalus acanthias 21,22,27,species,139,fb,TL,spe-Ocean,3.057269243,0.004718462
+Gadidae,Melanogrammus,aeglefinus,22,Gadidae Melanogrammus aeglefinus 22,22,27,species,139,fb,TL,spe-Ocean,3.141608684,0.005969565
+Gadidae,Melanogrammus,aeglefinus,20,Gadidae Melanogrammus aeglefinus 20,22,27,species,139,fb,TL,spe-Ocean,3.141608684,0.005969565
+Gadidae,Melanogrammus,aeglefinus,21,Gadidae Melanogrammus aeglefinus 21,22,27,species,139,fb,TL,spe-Ocean,3.141608684,0.005969565
+Syngnathidae,Entelurus,aequoreus,22,Syngnathidae Entelurus aequoreus 22,22,27,species,139,fb,TL,spe-LME,3,0.00022
+Syngnathidae,Entelurus,aequoreus,20,Syngnathidae Entelurus aequoreus 20,22,27,species,139,fb,TL,spe-LME,3,0.00022
+Syngnathidae,Entelurus,aequoreus,21,Syngnathidae Entelurus aequoreus 21,22,27,species,139,fb,TL,spe-LME,3,0.00022
+Clupeidae,Alosa,agone,22,Clupeidae Alosa agone 22,22,27,species,139,fb,TL,spe-Ocean,2.940000057,0.0133
+Anguillidae,Anguilla,anguilla,22,Anguillidae Anguilla anguilla 22,22,27,species,139,fb,TL,spe-LME,3.06480769,0.002155231
+Anguillidae,Anguilla,anguilla,21,Anguillidae Anguilla anguilla 21,22,27,species,139,fb,TL,spe-LME,3.06480769,0.002155231
+Trachipteridae,Trachipterus,arcticus,22,Trachipteridae Trachipterus arcticus 22,22,27,species,235,fb,TL,spe-FAO,3,0.00183
+Lotidae,Gaidropsarus,argentatus,20,Lotidae Gaidropsarus argentatus 20,22,27,species,139,fb,TL,gen-LME,2.959000111,0.0108
+Lotidae,Gaidropsarus,argentatus,21,Lotidae Gaidropsarus argentatus 21,22,27,species,139,fb,TL,gen-LME,2.959000111,0.0108
+Lotidae,Gaidropsarus,argentatus,22,Lotidae Gaidropsarus argentatus 22,22,27,species,139,fb,TL,gen-LME,2.959000111,0.0108
+Gadidae,Gadiculus,argenteus,20,Gadidae Gadiculus argenteus 20,22,27,species,139,fb,TL,spe-FAO,3.321333329,0.004176667
+Gadidae,Gadiculus,argenteus,22,Gadidae Gadiculus argenteus 22,22,27,species,139,fb,TL,spe-FAO,3.321333329,0.004176667
+Gadidae,Gadiculus,argenteus,21,Gadidae Gadiculus argenteus 21,22,27,species,139,fb,TL,spe-FAO,3.321333329,0.004176667
+Stichaeidae,Chirolophis,ascanii,20,Stichaeidae Chirolophis ascanii 20,22,27,species,139,fb,TL,gen-Ocean,3.423000097,0.0024
+Stichaeidae,Chirolophis,ascanii,22,Stichaeidae Chirolophis ascanii 22,22,27,species,139,fb,TL,gen-Ocean,3.423000097,0.0024
+Stichaeidae,Chirolophis,ascanii,21,Stichaeidae Chirolophis ascanii 21,22,27,species,139,fb,TL,gen-Ocean,3.423000097,0.0024
+Cottidae,Artediellus,atlanticus,20,Cottidae Artediellus atlanticus 20,22,27,species,139,fb,TL,fam-LME,3.194500029,0.009925
+Cottidae,Artediellus,atlanticus,21,Cottidae Artediellus atlanticus 21,22,27,species,139,fb,TL,fam-LME,3.194500029,0.009925
+Cottidae,Artediellus,atlanticus,22,Cottidae Artediellus atlanticus 22,22,27,species,139,fb,TL,fam-LME,3.194500029,0.009925
+Belonidae,Belone,belone,20,Belonidae Belone belone 20,22,27,species,139,fb,TL,spe-FAO,3.097333272,0.000983333
+Belonidae,Belone,belone,22,Belonidae Belone belone 22,22,27,species,139,fb,TL,spe-FAO,3.097333272,0.000983333
+Belonidae,Belone,belone,21,Belonidae Belone belone 21,22,27,species,139,fb,TL,spe-FAO,3.097333272,0.000983333
+Macrouridae,Macrourus,berglax,20,Macrouridae Macrourus berglax 20,22,27,species,230,fb,TL,spe-FAO,2.938499928,0.01223
+Macrouridae,Macrourus,berglax,21,Macrouridae Macrourus berglax 21,22,27,species,230,fb,TL,spe-FAO,2.938499928,0.01223
+Macrouridae,Macrourus,berglax,22,Macrouridae Macrourus berglax 22,22,27,species,230,fb,TL,spe-FAO,2.938499928,0.01223
+Labridae,Labrus,bergylta,22,Labridae Labrus bergylta 22,22,27,species,139,fb,TL,spe-LME,3,0.0145
+Cottidae,Icelus,bicornis,20,Cottidae Icelus bicornis 20,22,27,species,139,fb,TL,gen-Ocean,3.048900008,0.017749999
+Cottidae,Icelus,bicornis,21,Cottidae Icelus bicornis 21,22,27,species,139,fb,TL,gen-Ocean,3.048900008,0.017749999
+Cottidae,Icelus,bicornis,22,Cottidae Icelus bicornis 22,22,27,species,139,fb,TL,gen-Ocean,3.048900008,0.017749999
+Phycidae,Phycis,blennoides,21,Phycidae Phycis blennoides 21,22,27,species,139,fb,TL,spe-LME,3.388999939,0.0022
+Phycidae,Phycis,blennoides,20,Phycidae Phycis blennoides 20,22,27,species,139,fb,TL,spe-LME,3.388999939,0.0022
+Phycidae,Phycis,blennoides,22,Phycidae Phycis blennoides 22,22,27,species,139,fb,TL,spe-LME,3.388999939,0.0022
+Scophthalmidae,Lepidorhombus,boscii,22,Scophthalmidae Lepidorhombus boscii 22,22,27,species,139,fb,TL,spe-LME,3.049999952,0.003
+Scophthalmidae,Lepidorhombus,boscii,20,Scophthalmidae Lepidorhombus boscii 20,22,27,species,139,fb,TL,spe-LME,3.049999952,0.003
+Scophthalmidae,Lepidorhombus,boscii,21,Scophthalmidae Lepidorhombus boscii 21,22,27,species,139,fb,TL,spe-LME,3.049999952,0.003
+Bramidae,Brama,brama,22,Bramidae Brama brama 22,22,27,species,139,fb,TL,spe-FAO,3.184999943,0.00511
+Bramidae,Pterycombus,brama,20,Bramidae Pterycombus brama 20,22,27,species,139,fb,TL,fam-FAO,3.184999943,0.00511
+Lotidae,Brosme,brosme,20,Lotidae Brosme brosme 20,22,27,species,139,fb,TL,spe-Ocean,2.921979952,0.027317209
+Lotidae,Brosme,brosme,21,Lotidae Brosme brosme 21,22,27,species,139,fb,TL,spe-Ocean,2.921979952,0.027317209
+Lotidae,Brosme,brosme,22,Lotidae Brosme brosme 22,22,27,species,139,fb,TL,spe-Ocean,2.921979952,0.027317209
+Cottidae,Taurulus,bubalis,20,Cottidae Taurulus bubalis 20,22,27,species,139,fb,TL,spe-LME,3,0.0154
+Lophiidae,Lophius,budegassa,22,Lophiidae Lophius budegassa 22,22,27,species,139,fb,TL,spe-FAO,2.915749967,0.0365025
+Macrouridae,Coelorinchus,caelorhincus,22,Macrouridae Coelorinchus caelorhincus 22,22,27,species,139,fb,TL,spe-FAO,3.064499974,0.064844999
+Macrouridae,Coelorinchus,caelorhincus,21,Macrouridae Coelorinchus caelorhincus 21,22,27,species,139,fb,TL,spe-FAO,3.064499974,0.064844999
+Scyliorhinidae,Scyliorhinus,canicula,22,Scyliorhinidae Scyliorhinus canicula 22,22,27,species,139,fb,TL,spe-LME,2.904000044,0.00336
+Agonidae,Agonus,cataphractus,22,Agonidae Agonus cataphractus 22,22,27,species,139,fb,TL,spe-Ocean,2.740450025,0.015
+Agonidae,Agonus,cataphractus,20,Agonidae Agonus cataphractus 20,22,27,species,139,fb,TL,spe-Ocean,2.740450025,0.015
+Agonidae,Agonus,cataphractus,21,Agonidae Agonus cataphractus 21,22,27,species,139,fb,TL,spe-Ocean,2.740450025,0.015
+Phycidae,Urophycis,chuss,21,Phycidae Urophycis chuss 21,22,27,species,233,fb,TL,spe-Ocean,3,0.012454385
+Lotidae,Enchelyopus,cimbrius,22,Lotidae Enchelyopus cimbrius 22,22,27,species,139,fb,TL,spe-LME,3.105999947,0.0035
+Lotidae,Enchelyopus,cimbrius,20,Lotidae Enchelyopus cimbrius 20,22,27,species,139,fb,TL,spe-LME,3.105999947,0.0035
+Lotidae,Enchelyopus,cimbrius,21,Lotidae Enchelyopus cimbrius 21,22,27,species,139,fb,TL,spe-LME,3.105999947,0.0035
+Rajidae,Leucoraja,circularis,22,Rajidae Leucoraja circularis 22,22,27,species,139,fb,TL,spe-Ocean,3.079999924,0.0039
+Rajidae,Leucoraja,circularis,21,Rajidae Leucoraja circularis 21,22,27,species,139,fb,TL,spe-Ocean,3.079999924,0.0039
+Rajidae,Leucoraja,circularis,20,Rajidae Leucoraja circularis 20,22,27,species,139,fb,TL,spe-Ocean,3.079999924,0.0039
+Rajidae,Raja,clavata,20,Rajidae Raja clavata 20,22,27,species,139,fb,TL,spe-LME,3.214999994,0.00281
+Rajidae,Raja,clavata,22,Rajidae Raja clavata 22,22,27,species,139,fb,TL,spe-LME,3.214999994,0.00281
+Rajidae,Raja,clavata,21,Rajidae Raja clavata 21,22,27,species,139,fb,TL,spe-LME,3.214999994,0.00281
+Congridae,Conger,conger,22,Congridae Conger conger 22,22,27,species,139,fb,TL,spe-LME,3.192999999,0.001573333
+Myctophidae,Lampanyctus,crocodilus,22,Myctophidae Lampanyctus crocodilus 22,22,27,species,230,fb,TL,spe-LME,2.980000019,0.0051
+Triglidae,Chelidonichthys,cuculus,22,Triglidae Chelidonichthys cuculus 22,22,27,species,139,fb,TL,spe-LME,3.226666609,0.004916667
+Pleuronectidae,Glyptocephalus,cynoglossus,22,Pleuronectidae Glyptocephalus cynoglossus 22,22,27,species,139,fb,TL,spe-LME,3.235000014,0.00275
+Pleuronectidae,Glyptocephalus,cynoglossus,21,Pleuronectidae Glyptocephalus cynoglossus 21,22,27,species,139,fb,TL,spe-LME,3.235000014,0.00275
+Pleuronectidae,Glyptocephalus,cynoglossus,20,Pleuronectidae Glyptocephalus cynoglossus 20,22,27,species,139,fb,TL,spe-LME,3.235000014,0.00275
+Sebastidae,Helicolenus,dactylopterus,22,Sebastidae Helicolenus dactylopterus 22,22,27,species,139,fb,TL,spe-FAO,3.100750029,0.0112
+Sebastidae,Helicolenus,dactylopterus,21,Sebastidae Helicolenus dactylopterus 21,22,27,species,139,fb,TL,spe-FAO,3.100750029,0.0112
+Sebastidae,Helicolenus,dactylopterus,20,Sebastidae Helicolenus dactylopterus 20,22,27,species,139,fb,TL,spe-FAO,3.100750029,0.0112
+Agonidae,Leptagonus,decagonus,20,Agonidae Leptagonus decagonus 20,22,27,species,139,fb,TL,spe-Ocean,3,0.003487152
+Agonidae,Leptagonus,decagonus,22,Agonidae Leptagonus decagonus 22,22,27,species,139,fb,TL,spe-Ocean,3,0.003487152
+Agonidae,Leptagonus,decagonus,21,Agonidae Leptagonus decagonus 21,22,27,species,139,fb,TL,spe-Ocean,3,0.003487152
+Anarhichadidae,Anarhichas,denticulatus,20,Anarhichadidae Anarhichas denticulatus 20,22,27,species,232,fb,TL,gen-FAO,3.159666697,0.0051
+Anarhichadidae,Anarhichas,denticulatus,22,Anarhichadidae Anarhichas denticulatus 22,22,27,species,232,fb,TL,gen-FAO,3.159666697,0.0051
+Anarhichadidae,Anarhichas,denticulatus,21,Anarhichadidae Anarhichas denticulatus 21,22,27,species,232,fb,TL,gen-FAO,3.159666697,0.0051
+Trachinidae,Trachinus,draco,22,Trachinidae Trachinus draco 22,22,27,species,139,fb,TL,spe-LME,2.972000003,0.007135
+Carapidae,Echiodon,drummondii,21,Carapidae Echiodon drummondii 21,22,27,species,139,fb,TL,spe-Ocean,3,0.000592593
+Carapidae,Echiodon,drummondii,22,Carapidae Echiodon drummondii 22,22,27,species,139,fb,TL,spe-Ocean,3,0.000592593
+Carapidae,Echiodon,drummondii,20,Carapidae Echiodon drummondii 20,22,27,species,139,fb,TL,spe-Ocean,3,0.000592593
+Lotidae,Molva,dypterygia,20,Lotidae Molva dypterygia 20,22,27,species,139,fb,TL,spe-Ocean,3.148999929,0.00191
+Lotidae,Molva,dypterygia,22,Lotidae Molva dypterygia 22,22,27,species,139,fb,TL,spe-Ocean,3.148999929,0.00191
+Lotidae,Molva,dypterygia,21,Lotidae Molva dypterygia 21,22,27,species,139,fb,TL,spe-Ocean,3.148999929,0.00191
+Engraulidae,Engraulis,encrasicolus,22,Engraulidae Engraulis encrasicolus 22,22,27,species,139,fb,TL,spe-LME,2.980999947,0.00654
+Engraulidae,Engraulis,encrasicolus,21,Engraulidae Engraulis encrasicolus 21,22,27,species,139,fb,TL,spe-LME,2.980999947,0.00654
+Zoarcidae,Lycodes,esmarkii,20,Zoarcidae Lycodes esmarkii 20,22,27,species,232,fb,TL,spe-FAO,4.095699787,1.00E-04
+Zoarcidae,Lycodes,esmarkii,21,Zoarcidae Lycodes esmarkii 21,22,27,species,232,fb,TL,spe-FAO,4.095699787,1.00E-04
+Zoarcidae,Lycodes,esmarkii,22,Zoarcidae Lycodes esmarkii 22,22,27,species,232,fb,TL,spe-FAO,4.095699787,1.00E-04
+Gadidae,Trisopterus,esmarkii,20,Gadidae Trisopterus esmarkii 20,22,27,species,139,fb,TL,spe-LME,3,0.0068
+Gadidae,Trisopterus,esmarkii,22,Gadidae Trisopterus esmarkii 22,22,27,species,139,fb,TL,spe-LME,3,0.0068
+Gadidae,Trisopterus,esmarkii,21,Gadidae Trisopterus esmarkii 21,22,27,species,139,fb,TL,spe-LME,3,0.0068
+Liparidae,Liparis,fabricii,20,Liparidae Liparis fabricii 20,22,27,species,232,fb,TL,gen-Ocean,3.077950001,0.014600926
+Liparidae,Liparis,fabricii,22,Liparidae Liparis fabricii 22,22,27,species,232,fb,TL,gen-Ocean,3.077950001,0.014600926
+Liparidae,Liparis,fabricii,21,Liparidae Liparis fabricii 21,22,27,species,232,fb,TL,gen-Ocean,3.077950001,0.014600926
+Gobiidae,Gobiusculus,flavescens,22,Gobiidae Gobiusculus flavescens 22,22,27,species,104,fb,TL,fam-LME,3.052924991,0.0307425
+Pleuronectidae,Platichthys,flesus,22,Pleuronectidae Platichthys flesus 22,22,27,species,139,fb,TL,spe-LME,2.89212501,0.016503375
+Pleuronectidae,Platichthys,flesus,20,Pleuronectidae Platichthys flesus 20,22,27,species,139,fb,TL,spe-LME,2.89212501,0.016503375
+Pleuronectidae,Platichthys,flesus,21,Pleuronectidae Platichthys flesus 21,22,27,species,139,fb,TL,spe-LME,2.89212501,0.016503375
+Rajidae,Leucoraja,fullonica,20,Rajidae Leucoraja fullonica 20,22,27,species,139,fb,TL,gen-FAO,3.311000029,0.001916667
+Rajidae,Leucoraja,fullonica,21,Rajidae Leucoraja fullonica 21,22,27,species,139,fb,TL,gen-FAO,3.311000029,0.001916667
+Rajidae,Leucoraja,fullonica,22,Rajidae Leucoraja fullonica 22,22,27,species,139,fb,TL,gen-FAO,3.311000029,0.001916667
+Rajidae,Rajella,fyllae,22,Rajidae Rajella fyllae 22,22,27,species,139,fb,TL,gen-Ocean,3,0.004868698
+Rajidae,Rajella,fyllae,20,Rajidae Rajella fyllae 20,22,27,species,139,fb,TL,gen-Ocean,3,0.004868698
+Rajidae,Rajella,fyllae,21,Rajidae Rajella fyllae 21,22,27,species,139,fb,TL,gen-Ocean,3,0.004868698
+Triakidae,Galeorhinus,galeus,22,Triakidae Galeorhinus galeus 22,22,27,species,139,fb,TL,spe-Ocean,2.97075711,0.008014286
+Myctophidae,Benthosema,glaciale,20,Myctophidae Benthosema glaciale 20,22,27,species,230,fb,TL,fam-LME,2.980000019,0.0051
+Myctophidae,Benthosema,glaciale,22,Myctophidae Benthosema glaciale 22,22,27,species,230,fb,TL,fam-LME,2.980000019,0.0051
+Myctophidae,Benthosema,glaciale,21,Myctophidae Benthosema glaciale 21,22,27,species,230,fb,TL,fam-LME,2.980000019,0.0051
+Myxinidae,Myxine,glutinosa,22,Myxinidae Myxine glutinosa 22,22,27,species,139,fb,TL,spe-Ocean,2.835700035,0.0022
+Myxinidae,Myxine,glutinosa,20,Myxinidae Myxine glutinosa 20,22,27,species,139,fb,TL,spe-Ocean,2.835700035,0.0022
+Myxinidae,Myxine,glutinosa,21,Myxinidae Myxine glutinosa 21,22,27,species,139,fb,TL,spe-Ocean,2.835700035,0.0022
+Zoarcidae,Lycodes,gracilis,20,Zoarcidae Lycodes gracilis 20,22,27,species,139,fb,TL,gen-FAO,4.095699787,1.00E-04
+Zoarcidae,Lycodes,gracilis,22,Zoarcidae Lycodes gracilis 22,22,27,species,139,fb,TL,gen-FAO,4.095699787,1.00E-04
+Zoarcidae,Lycodes,gracilis,21,Zoarcidae Lycodes gracilis 21,22,27,species,139,fb,TL,gen-FAO,4.095699787,1.00E-04
+Pholidae,Pholis,gunnellus,22,Pholidae Pholis gunnellus 22,22,27,species,139,fb,TL,spe-LME,3.017999887,0.0043
+Pholidae,Pholis,gunnellus,20,Pholidae Pholis gunnellus 20,22,27,species,139,fb,TL,spe-LME,3.017999887,0.0043
+Triglidae,Eutrigla,gurnardus,22,Triglidae Eutrigla gurnardus 22,22,27,species,139,fb,TL,spe-LME,3.159500003,0.00505
+Triglidae,Eutrigla,gurnardus,21,Triglidae Eutrigla gurnardus 21,22,27,species,139,fb,TL,spe-LME,3.159500003,0.00505
+Triglidae,Eutrigla,gurnardus,20,Triglidae Eutrigla gurnardus 20,22,27,species,139,fb,TL,spe-LME,3.159500003,0.00505
+Clupeidae,Clupea,harengus,20,Clupeidae Clupea harengus 20,22,27,species,139,fb,TL,spe-LME,3.16431048,0.005010158
+Clupeidae,Clupea,harengus,21,Clupeidae Clupea harengus 21,22,27,species,139,fb,TL,spe-LME,3.16431048,0.005010158
+Clupeidae,Clupea,harengus,22,Clupeidae Clupea harengus 22,22,27,species,139,fb,TL,spe-LME,3.16431048,0.005010158
+Sternoptychidae,Argyropelecus,hemigymnus,21,Sternoptychidae Argyropelecus hemigymnus 21,22,27,species,235,fb,TL,spe-Ocean,3.589999914,0.0042
+Sternoptychidae,Argyropelecus,hemigymnus,22,Sternoptychidae Argyropelecus hemigymnus 22,22,27,species,235,fb,TL,spe-Ocean,3.589999914,0.0042
+Pleuronectidae,Reinhardtius,hippoglossoides,20,Pleuronectidae Reinhardtius hippoglossoides 20,22,27,species,233,fb,TL,spe-LME,3.257800102,0.003028
+Pleuronectidae,Reinhardtius,hippoglossoides,21,Pleuronectidae Reinhardtius hippoglossoides 21,22,27,species,233,fb,TL,spe-LME,3.257800102,0.003028
+Pleuronectidae,Reinhardtius,hippoglossoides,22,Pleuronectidae Reinhardtius hippoglossoides 22,22,27,species,233,fb,TL,spe-LME,3.257800102,0.003028
+Pleuronectidae,Hippoglossus,hippoglossus,20,Pleuronectidae Hippoglossus hippoglossus 20,22,27,species,139,fb,TL,spe-LME,3.101000071,0.0203
+Pleuronectidae,Hippoglossus,hippoglossus,21,Pleuronectidae Hippoglossus hippoglossus 21,22,27,species,139,fb,TL,spe-LME,3.101000071,0.0203
+Pleuronectidae,Hippoglossus,hippoglossus,22,Pleuronectidae Hippoglossus hippoglossus 22,22,27,species,139,fb,TL,spe-LME,3.101000071,0.0203
+Ammodytidae,Hyperoplus,immaculatus,22,Ammodytidae Hyperoplus immaculatus 22,22,27,species,139,fb,TL,spe-Ocean,2.835500002,0.006178841
+Pleuronectidae,Microstomus,kitt,22,Pleuronectidae Microstomus kitt 22,22,27,species,139,fb,TL,spe-LME,3.044999957,0.00875
+Pleuronectidae,Microstomus,kitt,20,Pleuronectidae Microstomus kitt 20,22,27,species,139,fb,TL,spe-LME,3.044999957,0.00875
+Pleuronectidae,Microstomus,kitt,21,Pleuronectidae Microstomus kitt 21,22,27,species,139,fb,TL,spe-LME,3.044999957,0.00875
+Stichaeidae,Lumpenus,lampretaeformis,20,Stichaeidae Lumpenus lampretaeformis 20,22,27,species,139,fb,TL,spe-Ocean,2.268849969,0.01135
+Stichaeidae,Lumpenus,lampretaeformis,22,Stichaeidae Lumpenus lampretaeformis 22,22,27,species,139,fb,TL,spe-Ocean,2.268849969,0.01135
+Stichaeidae,Lumpenus,lampretaeformis,21,Stichaeidae Lumpenus lampretaeformis 21,22,27,species,139,fb,TL,spe-Ocean,2.268849969,0.01135
+Ammodytidae,Hyperoplus,lanceolatus,22,Ammodytidae Hyperoplus lanceolatus 22,22,27,species,139,fb,TL,spe-Ocean,2.696700096,0.0066
+Ammodytidae,Hyperoplus,lanceolatus,20,Ammodytidae Hyperoplus lanceolatus 20,22,27,species,139,fb,TL,spe-Ocean,2.696700096,0.0066
+Bothidae,Arnoglossus,laterna,22,Bothidae Arnoglossus laterna 22,22,27,species,139,fb,TL,spe-FAO,3.225749969,0.005265
+Cottidae,Micrenophrys,lilljeborgii,20,Cottidae Micrenophrys lilljeborgii 20,22,27,species,139,fb,TL,fam-LME,3.194500029,0.009925
+Pleuronectidae,Limanda,limanda,22,Pleuronectidae Limanda limanda 22,22,27,species,139,fb,TL,spe-LME,3.100999975,0.007762
+Pleuronectidae,Limanda,limanda,21,Pleuronectidae Limanda limanda 21,22,27,species,139,fb,TL,spe-LME,3.100999975,0.007762
+Pleuronectidae,Limanda,limanda,20,Pleuronectidae Limanda limanda 20,22,27,species,139,fb,TL,spe-LME,3.100999975,0.007762
+Gobiidae,Crystallogobius,linearis,22,Gobiidae Crystallogobius linearis 22,22,27,species,139,fb,TL,fam-LME,3,0.0111
+Cyclopteridae,Cyclopterus,lumpus,22,Cyclopteridae Cyclopterus lumpus 22,22,27,species,139,fb,TL,spe-LME,2.938999891,0.058699999
+Cyclopteridae,Cyclopterus,lumpus,20,Cyclopteridae Cyclopterus lumpus 20,22,27,species,139,fb,TL,spe-LME,2.938999891,0.058699999
+Cyclopteridae,Cyclopterus,lumpus,21,Cyclopteridae Cyclopterus lumpus 21,22,27,species,139,fb,TL,spe-LME,2.938999891,0.058699999
+Anarhichadidae,Anarhichas,lupus,20,Anarhichadidae Anarhichas lupus 20,22,27,species,139,fb,TL,spe-LME,3.11500001,0.006
+Anarhichadidae,Anarhichas,lupus,22,Anarhichadidae Anarhichas lupus 22,22,27,species,139,fb,TL,spe-LME,3.11500001,0.006
+Anarhichadidae,Anarhichas,lupus,21,Anarhichadidae Anarhichas lupus 21,22,27,species,139,fb,TL,spe-LME,3.11500001,0.006
+Gadidae,Trisopterus,luscus,22,Gadidae Trisopterus luscus 22,22,27,species,139,fb,TL,spe-LME,3.179499984,0.0073225
+Gadidae,Trisopterus,luscus,21,Gadidae Trisopterus luscus 21,22,27,species,139,fb,TL,spe-LME,3.179499984,0.0073225
+Soleidae,Buglossidium,luteum,22,Soleidae Buglossidium luteum 22,22,27,species,139,fb,TL,spe-FAO,3.370000005,0.00499
+Callionymidae,Callionymus,lyra,22,Callionymidae Callionymus lyra 22,22,27,species,139,fb,TL,spe-LME,2.677666664,0.0118
+Callionymidae,Callionymus,lyra,20,Callionymidae Callionymus lyra 20,22,27,species,139,fb,TL,spe-LME,2.677666664,0.0118
+Callionymidae,Callionymus,lyra,21,Callionymidae Callionymus lyra 21,22,27,species,139,fb,TL,spe-LME,2.677666664,0.0118
+Myctophidae,Lampanyctus,macdonaldi,20,Myctophidae Lampanyctus macdonaldi 20,22,27,species,232,fb,TL,gen-FAO,2.980000019,0.0051
+Lotidae,Gaidropsarus,macrophthalmus,22,Lotidae Gaidropsarus macrophthalmus 22,22,27,species,139,fb,TL,spe-FAO,2.950000048,0.00634
+Stichaeidae,Leptoclinus,maculatus,20,Stichaeidae Leptoclinus maculatus 20,22,27,species,139,fb,TL,fam-Ocean,2.731414301,0.039298572
+Stichaeidae,Leptoclinus,maculatus,21,Stichaeidae Leptoclinus maculatus 21,22,27,species,139,fb,TL,fam-Ocean,2.731414301,0.039298572
+Stichaeidae,Leptoclinus,maculatus,22,Stichaeidae Leptoclinus maculatus 22,22,27,species,139,fb,TL,fam-Ocean,2.731414301,0.039298572
+Ammodytidae,Ammodytes,marinus,22,Ammodytidae Ammodytes marinus 22,22,27,species,139,fb,TL,spe-Ocean,3.439500093,0.001
+Ammodytidae,Ammodytes,marinus,20,Ammodytidae Ammodytes marinus 20,22,27,species,139,fb,TL,spe-Ocean,3.439500093,0.001
+Ammodytidae,Ammodytes,marinus,21,Ammodytidae Ammodytes marinus 21,22,27,species,139,fb,TL,spe-Ocean,3.439500093,0.001
+Petromyzontidae,Petromyzon,marinus,22,Petromyzontidae Petromyzon marinus 22,22,27,species,139,fb,TL,spe-Ocean,3,0.00208
+Petromyzontidae,Petromyzon,marinus,20,Petromyzontidae Petromyzon marinus 20,22,27,species,139,fb,TL,spe-Ocean,3,0.00208
+Scophthalmidae,Scophthalmus,maximus,22,Scophthalmidae Scophthalmus maximus 22,22,27,species,139,fb,TL,spe-LME,3.027888934,0.016391111
+Scophthalmidae,Scophthalmus,maximus,20,Scophthalmidae Scophthalmus maximus 20,22,27,species,139,fb,TL,spe-LME,3.027888934,0.016391111
+Stichaeidae,Anisarchus,medius,20,Stichaeidae Anisarchus medius 20,22,27,species,232,fb,TL,fam-Ocean,2.731414301,0.039298572
+Stichaeidae,Anisarchus,medius,22,Stichaeidae Anisarchus medius 22,22,27,species,232,fb,TL,fam-Ocean,2.731414301,0.039298572
+Centrolophidae,Schedophilus,medusophagus,21,Centrolophidae Schedophilus medusophagus 21,22,27,species,228,fb,TL,spe-Ocean,3,0.012321563
+Centrolophidae,Schedophilus,medusophagus,20,Centrolophidae Schedophilus medusophagus 20,22,27,species,228,fb,TL,spe-Ocean,3,0.012321563
+Centrolophidae,Schedophilus,medusophagus,22,Centrolophidae Schedophilus medusophagus 22,22,27,species,228,fb,TL,spe-Ocean,3,0.012321563
+Pentanchidae,Galeus,melastomus,21,Pentanchidae Galeus melastomus 21,22,27,species,139,fb,TL,spe-FAO,3.099000025,0.001992
+Pentanchidae,Galeus,melastomus,22,Pentanchidae Galeus melastomus 22,22,27,species,139,fb,TL,spe-FAO,3.099000025,0.001992
+Pentanchidae,Galeus,melastomus,20,Pentanchidae Galeus melastomus 20,22,27,species,139,fb,TL,spe-FAO,3.099000025,0.001992
+Gadidae,Merlangius,merlangus,22,Gadidae Merlangius merlangus 22,22,27,species,139,fb,TL,spe-LME,3.180499911,0.004825
+Gadidae,Merlangius,merlangus,20,Gadidae Merlangius merlangus 20,22,27,species,139,fb,TL,spe-LME,3.180499911,0.004825
+Gadidae,Merlangius,merlangus,21,Gadidae Merlangius merlangus 21,22,27,species,139,fb,TL,spe-LME,3.180499911,0.004825
+Merlucciidae,Merluccius,merluccius,22,Merlucciidae Merluccius merluccius 22,22,27,species,139,fb,TL,spe-LME,2.981000066,0.008198
+Merlucciidae,Merluccius,merluccius,21,Merlucciidae Merluccius merluccius 21,22,27,species,139,fb,TL,spe-LME,2.981000066,0.008198
+Merlucciidae,Merluccius,merluccius,20,Merlucciidae Merluccius merluccius 20,22,27,species,139,fb,TL,spe-LME,2.981000066,0.008198
+Somniosidae,Somniosus,microcephalus,20,Somniosidae Somniosus microcephalus 20,22,27,species,139,fb,TL,spe-LME,3.213333368,0.019666666
+Somniosidae,Somniosus,microcephalus,21,Somniosidae Somniosus microcephalus 21,22,27,species,139,fb,TL,spe-LME,3.213333368,0.019666666
+Psychrolutidae,Cottunculus,microps,20,Psychrolutidae Cottunculus microps 20,22,27,species,139,fb,TL,fam-Ocean,3.007250011,0.0202
+Psychrolutidae,Cottunculus,microps,22,Psychrolutidae Cottunculus microps 22,22,27,species,139,fb,TL,fam-Ocean,3.007250011,0.0202
+Psychrolutidae,Cottunculus,microps,21,Psychrolutidae Cottunculus microps 21,22,27,species,139,fb,TL,fam-Ocean,3.007250011,0.0202
+Anarhichadidae,Anarhichas,minor,20,Anarhichadidae Anarhichas minor 20,22,27,species,139,fb,TL,gen-LME,3.11500001,0.006
+Anarhichadidae,Anarhichas,minor,22,Anarhichadidae Anarhichas minor 22,22,27,species,139,fb,TL,gen-LME,3.11500001,0.006
+Anarhichadidae,Anarhichas,minor,21,Anarhichadidae Anarhichas minor 21,22,27,species,139,fb,TL,gen-LME,3.11500001,0.006
+Gobiidae,Aphia,minuta,22,Gobiidae Aphia minuta 22,22,27,species,139,fb,TL,spe-FAO,3.526666661,0.00122425
+Gadidae,Trisopterus,minutus,22,Gadidae Trisopterus minutus 22,22,27,species,139,fb,TL,spe-LME,3.026000023,0.0092
+Gadidae,Trisopterus,minutus,21,Gadidae Trisopterus minutus 21,22,27,species,139,fb,TL,spe-LME,3.026000023,0.0092
+Gadidae,Trisopterus,minutus,20,Gadidae Trisopterus minutus 20,22,27,species,139,fb,TL,spe-LME,3.026000023,0.0092
+Lotidae,Molva,molva,20,Lotidae Molva molva 20,22,27,species,139,fb,TL,spe-LME,3.436000109,0.001
+Lotidae,Molva,molva,22,Lotidae Molva molva 22,22,27,species,139,fb,TL,spe-LME,3.436000109,0.001
+Lotidae,Molva,molva,21,Lotidae Molva molva 21,22,27,species,139,fb,TL,spe-LME,3.436000109,0.001
+Chimaeridae,Chimaera,monstrosa,22,Chimaeridae Chimaera monstrosa 22,22,27,species,139,fb,TL,spe-FAO,3.270499945,0.00387
+Chimaeridae,Chimaera,monstrosa,20,Chimaeridae Chimaera monstrosa 20,22,27,species,139,fb,TL,spe-FAO,3.270499945,0.00387
+Chimaeridae,Chimaera,monstrosa,21,Chimaeridae Chimaera monstrosa 21,22,27,species,139,fb,TL,spe-FAO,3.270499945,0.00387
+Rajidae,Raja,montagui,22,Rajidae Raja montagui 22,22,27,species,139,fb,TL,spe-LME,3.311000109,0.00201
+Rajidae,Raja,montagui,21,Rajidae Raja montagui 21,22,27,species,139,fb,TL,spe-LME,3.311000109,0.00201
+Rajidae,Raja,montagui,20,Rajidae Raja montagui 20,22,27,species,139,fb,TL,spe-LME,3.311000109,0.00201
+Gadidae,Gadus,morhua,20,Gadidae Gadus morhua 20,22,27,species,139,fb,TL,spe-LME,3.084400034,0.007182
+Gadidae,Gadus,morhua,22,Gadidae Gadus morhua 22,22,27,species,139,fb,TL,spe-LME,3.084400034,0.007182
+Gadidae,Gadus,morhua,21,Gadidae Gadus morhua 21,22,27,species,139,fb,TL,spe-LME,3.084400034,0.007182
+Sternoptychidae,Maurolicus,muelleri,22,Sternoptychidae Maurolicus muelleri 22,22,27,species,139,fb,TL,spe-Ocean,3.960999966,0.00164
+Sternoptychidae,Maurolicus,muelleri,20,Sternoptychidae Maurolicus muelleri 20,22,27,species,139,fb,TL,spe-Ocean,3.960999966,0.00164
+Sternoptychidae,Maurolicus,muelleri,21,Sternoptychidae Maurolicus muelleri 21,22,27,species,139,fb,TL,spe-Ocean,3.960999966,0.00164
+Cottidae,Triglops,murrayi,22,Cottidae Triglops murrayi 22,22,27,species,139,fb,TL,spe-Ocean,3,0.008803328
+Cottidae,Triglops,murrayi,20,Cottidae Triglops murrayi 20,22,27,species,139,fb,TL,spe-Ocean,3,0.008803328
+Cottidae,Triglops,murrayi,21,Cottidae Triglops murrayi 21,22,27,species,139,fb,TL,spe-Ocean,3,0.008803328
+Rajidae,Leucoraja,naevus,22,Rajidae Leucoraja naevus 22,22,27,species,139,fb,TL,spe-FAO,3.311000029,0.001916667
+Lamnidae,Lamna,nasus,22,Lamnidae Lamna nasus 22,22,27,species,139,fb,TL,spe-LME,2.594500065,0.080499999
+Rajidae,Dipturus,nidarosiensis,22,Rajidae Dipturus nidarosiensis 22,22,27,species,228,fb,TL,gen-FAO,3.539000034,0.00048
+Rajidae,Dipturus,nidarosiensis,21,Rajidae Dipturus nidarosiensis 21,22,27,species,228,fb,TL,gen-FAO,3.539000034,0.00048
+Rajidae,Dipturus,nidarosiensis,20,Rajidae Dipturus nidarosiensis 20,22,27,species,228,fb,TL,gen-FAO,3.539000034,0.00048
+Scophthalmidae,Phrynorhombus,norvegicus,22,Scophthalmidae Phrynorhombus norvegicus 22,22,27,species,139,fb,TL,spe-FAO,2.904999971,0.016100001
+Scophthalmidae,Phrynorhombus,norvegicus,21,Scophthalmidae Phrynorhombus norvegicus 21,22,27,species,139,fb,TL,spe-FAO,2.904999971,0.016100001
+Scophthalmidae,Phrynorhombus,norvegicus,20,Scophthalmidae Phrynorhombus norvegicus 20,22,27,species,139,fb,TL,spe-FAO,2.904999971,0.016100001
+Gobiidae,Pomatoschistus,norvegicus,22,Gobiidae Pomatoschistus norvegicus 22,22,27,species,139,fb,TL,gen-FAO,3.156666756,0.007553333
+Agonidae,Aspidophoroides,olrikii,20,Agonidae Aspidophoroides olrikii 20,22,27,species,232,fb,TL,fam-Ocean,2.814179993,0.01302343
+Rajidae,Dipturus,oxyrinchus,21,Rajidae Dipturus oxyrinchus 21,22,27,species,139,fb,TL,spe-FAO,3.539000034,0.00048
+Rajidae,Dipturus,oxyrinchus,22,Rajidae Dipturus oxyrinchus 22,22,27,species,139,fb,TL,spe-FAO,3.539000034,0.00048
+Rajidae,Dipturus,oxyrinchus,20,Rajidae Dipturus oxyrinchus 20,22,27,species,139,fb,TL,spe-FAO,3.539000034,0.00048
+Dasyatidae,Dasyatis,pastinaca,22,Dasyatidae Dasyatis pastinaca 22,22,27,species,235,fb,TL,spe-Ocean,2.732139969,0.03208
+Clupeidae,Sardina,pilchardus,22,Clupeidae Sardina pilchardus 22,22,27,species,139,fb,TL,spe-LME,3.058499932,0.00597
+Cottidae,Triglops,pingelii,20,Cottidae Triglops pingelii 20,22,27,species,232,fb,TL,gen-Ocean,3,0.008803328
+Cottidae,Triglops,pingelii,21,Cottidae Triglops pingelii 21,22,27,species,232,fb,TL,gen-Ocean,3,0.008803328
+Cottidae,Triglops,pingelii,22,Cottidae Triglops pingelii 22,22,27,species,232,fb,TL,gen-Ocean,3,0.008803328
+Lophiidae,Lophius,piscatorius,22,Lophiidae Lophius piscatorius 22,22,27,species,139,fb,TL,spe-LME,2.813999971,0.0276
+Lophiidae,Lophius,piscatorius,21,Lophiidae Lophius piscatorius 21,22,27,species,139,fb,TL,spe-LME,2.813999971,0.0276
+Lophiidae,Lophius,piscatorius,20,Lophiidae Lophius piscatorius 20,22,27,species,139,fb,TL,spe-LME,2.813999971,0.0276
+Pleuronectidae,Pleuronectes,platessa,22,Pleuronectidae Pleuronectes platessa 22,22,27,species,139,fb,TL,spe-LME,3.120999932,0.00778
+Pleuronectidae,Pleuronectes,platessa,20,Pleuronectidae Pleuronectes platessa 20,22,27,species,139,fb,TL,spe-LME,3.120999932,0.00778
+Pleuronectidae,Pleuronectes,platessa,21,Pleuronectidae Pleuronectes platessa 21,22,27,species,139,fb,TL,spe-LME,3.120999932,0.00778
+Pleuronectidae,Hippoglossoides,platessoides,20,Pleuronectidae Hippoglossoides platessoides 20,22,27,species,139,fb,TL,spe-LME,3.203999996,0.0044
+Pleuronectidae,Hippoglossoides,platessoides,22,Pleuronectidae Hippoglossoides platessoides 22,22,27,species,139,fb,TL,spe-LME,3.203999996,0.0044
+Pleuronectidae,Hippoglossoides,platessoides,21,Pleuronectidae Hippoglossoides platessoides 21,22,27,species,139,fb,TL,spe-LME,3.203999996,0.0044
+Gadidae,Pollachius,pollachius,22,Gadidae Pollachius pollachius 22,22,27,species,139,fb,TL,spe-LME,3.108333349,0.005953333
+Gadidae,Pollachius,pollachius,21,Gadidae Pollachius pollachius 21,22,27,species,139,fb,TL,spe-LME,3.108333349,0.005953333
+Gadidae,Pollachius,pollachius,20,Gadidae Pollachius pollachius 20,22,27,species,139,fb,TL,spe-LME,3.108333349,0.005953333
+Gadidae,Micromesistius,poutassou,20,Gadidae Micromesistius poutassou 20,22,27,species,139,fb,TL,spe-LME,3.082000017,0.00375
+Gadidae,Micromesistius,poutassou,22,Gadidae Micromesistius poutassou 22,22,27,species,139,fb,TL,spe-LME,3.082000017,0.00375
+Gadidae,Micromesistius,poutassou,21,Gadidae Micromesistius poutassou 21,22,27,species,139,fb,TL,spe-LME,3.082000017,0.00375
+Scophthalmidae,Zeugopterus,punctatus,21,Scophthalmidae Zeugopterus punctatus 21,22,27,species,139,fb,TL,spe-LME,3.145999908,0.0139
+Scophthalmidae,Zeugopterus,punctatus,22,Scophthalmidae Zeugopterus punctatus 22,22,27,species,139,fb,TL,spe-LME,3.145999908,0.0139
+Gasterosteidae,Pungitius,pungitius,20,Gasterosteidae Pungitius pungitius 20,22,27,species,139,fb,TL,spe-Ocean,3.079999924,0.00338
+Cottidae,Myoxocephalus,quadricornis,20,Cottidae Myoxocephalus quadricornis 20,22,27,species,104,fb,TL,spe-LME,2.952199936,0.0229
+Cottidae,Myoxocephalus,quadricornis,21,Cottidae Myoxocephalus quadricornis 21,22,27,species,104,fb,TL,spe-LME,2.952199936,0.0229
+Rajidae,Amblyraja,radiata,22,Rajidae Amblyraja radiata 22,22,27,species,139,fb,TL,spe-FAO,2.190000057,0.157000005
+Rajidae,Amblyraja,radiata,20,Rajidae Amblyraja radiata 20,22,27,species,139,fb,TL,spe-FAO,2.190000057,0.157000005
+Rajidae,Amblyraja,radiata,21,Rajidae Amblyraja radiata 21,22,27,species,139,fb,TL,spe-FAO,2.190000057,0.157000005
+Gadidae,Raniceps,raninus,22,Gadidae Raniceps raninus 22,22,27,species,139,fb,TL,spe-Ocean,3.26699996,0.0062
+Gadidae,Raniceps,raninus,20,Gadidae Raniceps raninus 20,22,27,species,139,fb,TL,spe-Ocean,3.26699996,0.0062
+Liparidae,Careproctus,ranula,20,Liparidae Careproctus ranula 20,22,27,species,233,fb,TL,gen-LME,3,0.0129
+Liparidae,Careproctus,reinhardti,20,Liparidae Careproctus reinhardti 20,22,27,species,232,fb,TL,spe-Ocean,3,0.018145243
+Liparidae,Careproctus,reinhardti,21,Liparidae Careproctus reinhardti 21,22,27,species,232,fb,TL,spe-Ocean,3,0.018145243
+Liparidae,Careproctus,reinhardti,22,Liparidae Careproctus reinhardti 22,22,27,species,232,fb,TL,spe-Ocean,3,0.018145243
+Zoarcidae,Lycodes,reticulatus,20,Zoarcidae Lycodes reticulatus 20,22,27,species,232,fb,TL,gen-FAO,4.095699787,1.00E-04
+Zoarcidae,Lycodes,reticulatus,21,Zoarcidae Lycodes reticulatus 21,22,27,species,232,fb,TL,gen-FAO,4.095699787,1.00E-04
+Zoarcidae,Lycodes,reticulatus,22,Zoarcidae Lycodes reticulatus 22,22,27,species,232,fb,TL,gen-FAO,4.095699787,1.00E-04
+Scophthalmidae,Scophthalmus,rhombus,22,Scophthalmidae Scophthalmus rhombus 22,22,27,species,139,fb,TL,spe-LME,3.035400033,0.014538
+Paralepididae,Arctozenus,risso,20,Paralepididae Arctozenus risso 20,22,27,species,139,fb,TL,fam-Ocean,2.94599998,0.00266
+Paralepididae,Arctozenus,risso,21,Paralepididae Arctozenus risso 21,22,27,species,139,fb,TL,fam-Ocean,2.94599998,0.00266
+Paralepididae,Arctozenus,risso,22,Paralepididae Arctozenus risso 22,22,27,species,139,fb,TL,fam-Ocean,2.94599998,0.00266
+Macrouridae,Coryphaenoides,rupestris,22,Macrouridae Coryphaenoides rupestris 22,22,27,species,139,fb,TL,gen-Ocean,2.486699939,0.019685
+Macrouridae,Coryphaenoides,rupestris,20,Macrouridae Coryphaenoides rupestris 20,22,27,species,139,fb,TL,gen-Ocean,2.486699939,0.019685
+Macrouridae,Coryphaenoides,rupestris,21,Macrouridae Coryphaenoides rupestris 21,22,27,species,139,fb,TL,gen-Ocean,2.486699939,0.019685
+Salmonidae,Salmo,salar,20,Salmonidae Salmo salar 20,22,27,species,139,fb,TL,spe-Ocean,2.991630077,0.010717443
+Zoarcidae,Lycenchelys,sarsii,20,Zoarcidae Lycenchelys sarsii 20,22,27,species,139,fb,TL,gen-FAO,2.901000023,0.00252
+Zoarcidae,Lycenchelys,sarsii,22,Zoarcidae Lycenchelys sarsii 22,22,27,species,139,fb,TL,gen-FAO,2.901000023,0.00252
+Centriscidae,Macroramphosus,scolopax,22,Centriscidae Macroramphosus scolopax 22,22,27,species,139,fb,TL,spe-FAO,2.88499999,0.0128
+Scombridae,Scomber,scombrus,21,Scombridae Scomber scombrus 21,22,27,species,139,fb,TL,spe-LME,3.062000036,0.006665
+Scombridae,Scomber,scombrus,22,Scombridae Scomber scombrus 22,22,27,species,139,fb,TL,spe-LME,3.062000036,0.006665
+Scombridae,Scomber,scombrus,20,Scombridae Scomber scombrus 20,22,27,species,139,fb,TL,spe-LME,3.062000036,0.006665
+Cottidae,Myoxocephalus,scorpius,20,Cottidae Myoxocephalus scorpius 20,22,27,species,139,fb,TL,spe-LME,3.257000089,0.0083
+Cottidae,Myoxocephalus,scorpius,22,Cottidae Myoxocephalus scorpius 22,22,27,species,139,fb,TL,spe-LME,3.257000089,0.0083
+Cottidae,Myoxocephalus,scorpius,21,Cottidae Myoxocephalus scorpius 21,22,27,species,139,fb,TL,spe-LME,3.257000089,0.0083
+Soleidae,Solea,solea,22,Soleidae Solea solea 22,22,27,species,139,fb,TL,spe-LME,3.066314289,0.007372
+Etmopteridae,Etmopterus,spinax,22,Etmopteridae Etmopterus spinax 22,22,27,species,139,fb,TL,spe-FAO,3.13499999,0.002823333
+Etmopteridae,Etmopterus,spinax,21,Etmopteridae Etmopterus spinax 21,22,27,species,139,fb,TL,spe-FAO,3.13499999,0.002823333
+Etmopteridae,Etmopterus,spinax,20,Etmopteridae Etmopterus spinax 20,22,27,species,139,fb,TL,spe-FAO,3.13499999,0.002823333
+Cyclopteridae,Eumicrotremus,spinosus,20,Cyclopteridae Eumicrotremus spinosus 20,22,27,species,233,fb,TL,spe-Ocean,3.255300045,0.029720001
+Cyclopteridae,Eumicrotremus,spinosus,22,Cyclopteridae Eumicrotremus spinosus 22,22,27,species,233,fb,TL,spe-Ocean,3.255300045,0.029720001
+Cyclopteridae,Eumicrotremus,spinosus,21,Cyclopteridae Eumicrotremus spinosus 21,22,27,species,233,fb,TL,spe-Ocean,3.255300045,0.029720001
+Clupeidae,Sprattus,sprattus,22,Clupeidae Sprattus sprattus 22,22,27,species,139,fb,TL,spe-LME,3.220000029,0.0041
+Clupeidae,Sprattus,sprattus,21,Clupeidae Sprattus sprattus 21,22,27,species,139,fb,TL,spe-LME,3.220000029,0.0041
+Clupeidae,Sprattus,sprattus,20,Clupeidae Sprattus sprattus 20,22,27,species,139,fb,TL,spe-LME,3.220000029,0.0041
+Centrophoridae,Centrophorus,squamosus,22,Centrophoridae Centrophorus squamosus 22,22,27,species,235,fb,TL,spe-Ocean,3.263333321,0.002226667
+Scyliorhinidae,Scyliorhinus,stellaris,22,Scyliorhinidae Scyliorhinus stellaris 22,22,27,species,139,fb,TL,spe-Ocean,3.167000055,0.002
+Mullidae,Mullus,surmuletus,22,Mullidae Mullus surmuletus 22,22,27,species,139,fb,TL,spe-LME,3.193166693,0.007313333
+Ammodytidae,Ammodytes,tobianus,22,Ammodytidae Ammodytes tobianus 22,22,27,species,139,fb,TL,spe-FAO,2.559999943,0.0098
+Ammodytidae,Ammodytes,tobianus,20,Ammodytidae Ammodytes tobianus 20,22,27,species,139,fb,TL,spe-FAO,2.559999943,0.0098
+Carangidae,Trachurus,trachurus,22,Carangidae Trachurus trachurus 22,22,27,species,139,fb,TL,spe-LME,3.135749996,0.0054475
+Carangidae,Trachurus,trachurus,21,Carangidae Trachurus trachurus 21,22,27,species,139,fb,TL,spe-LME,3.135749996,0.0054475
+Carangidae,Trachurus,trachurus,20,Carangidae Trachurus trachurus 20,22,27,species,139,fb,TL,spe-LME,3.135749996,0.0054475
+Cottidae,Gymnocanthus,tricuspis,20,Cottidae Gymnocanthus tricuspis 20,22,27,species,232,fb,TL,gen-Ocean,3.05699999,0.013795714
+Cottidae,Gymnocanthus,tricuspis,21,Cottidae Gymnocanthus tricuspis 21,22,27,species,232,fb,TL,gen-Ocean,3.05699999,0.013795714
+Liparidae,Liparis,tunicatus,20,Liparidae Liparis tunicatus 20,22,27,species,233,fb,TL,gen-Ocean,3.077950001,0.014600926
+Zoarcidae,Lycodes,vahlii,22,Zoarcidae Lycodes vahlii 22,22,27,species,139,fb,TL,gen-FAO,4.095699787,1.00E-04
+Zoarcidae,Lycodes,vahlii,20,Zoarcidae Lycodes vahlii 20,22,27,species,139,fb,TL,gen-FAO,4.095699787,1.00E-04
+Soleidae,Microchirus,variegatus,22,Soleidae Microchirus variegatus 22,22,27,species,139,fb,TL,spe-FAO,3.127999961,0.0099675
+Osmeridae,Mallotus,villosus,20,Osmeridae Mallotus villosus 20,22,27,species,232,fb,TL,spe-Ocean,3.330000043,0.001805
+Osmeridae,Mallotus,villosus,21,Osmeridae Mallotus villosus 21,22,27,species,232,fb,TL,spe-Ocean,3.330000043,0.001805
+Trachinidae,Echiichthys,vipera,22,Trachinidae Echiichthys vipera 22,22,27,species,139,fb,TL,spe-FAO,3.049999952,0.0105
+Gadidae,Pollachius,virens,22,Gadidae Pollachius virens 22,22,27,species,139,fb,TL,spe-Ocean,3.043068781,0.008445625
+Gadidae,Pollachius,virens,20,Gadidae Pollachius virens 20,22,27,species,139,fb,TL,spe-Ocean,3.043068781,0.008445625
+Gadidae,Pollachius,virens,21,Gadidae Pollachius virens 21,22,27,species,139,fb,TL,spe-Ocean,3.043068781,0.008445625
+Zoarcidae,Gymnelus,viridis,20,Zoarcidae Gymnelus viridis 20,22,27,species,232,fb,TL,spe-LME,3.495000005,0.0014435
+Sebastidae,Sebastes,viviparus,20,Sebastidae Sebastes viviparus 20,22,27,species,139,fb,TL,spe-LME,3.137000084,0.0115
+Sebastidae,Sebastes,viviparus,22,Sebastidae Sebastes viviparus 22,22,27,species,139,fb,TL,spe-LME,3.137000084,0.0115
+Sebastidae,Sebastes,viviparus,21,Sebastidae Sebastes viviparus 21,22,27,species,139,fb,TL,spe-LME,3.137000084,0.0115
+Zoarcidae,Zoarces,viviparus,22,Zoarcidae Zoarces viviparus 22,22,27,species,139,fb,TL,spe-LME,3.25,0.0019
+Zoarcidae,Zoarces,viviparus,20,Zoarcidae Zoarces viviparus 20,22,27,species,139,fb,TL,spe-LME,3.25,0.0019
+Lotidae,Gaidropsarus,vulgaris,20,Lotidae Gaidropsarus vulgaris 20,22,27,species,139,fb,TL,spe-LME,2.959000111,0.0108
+Lotidae,Gaidropsarus,vulgaris,21,Lotidae Gaidropsarus vulgaris 21,22,27,species,139,fb,TL,spe-LME,2.959000111,0.0108
+Lotidae,Gaidropsarus,vulgaris,22,Lotidae Gaidropsarus vulgaris 22,22,27,species,139,fb,TL,spe-LME,2.959000111,0.0108
+Scophthalmidae,Lepidorhombus,whiffiagonis,22,Scophthalmidae Lepidorhombus whiffiagonis 22,22,27,species,139,fb,TL,spe-FAO,3.13676247,0.00423125
+Scophthalmidae,Lepidorhombus,whiffiagonis,21,Scophthalmidae Lepidorhombus whiffiagonis 21,22,27,species,139,fb,TL,spe-FAO,3.13676247,0.00423125
+Scophthalmidae,Lepidorhombus,whiffiagonis,20,Scophthalmidae Lepidorhombus whiffiagonis 20,22,27,species,139,fb,TL,spe-FAO,3.13676247,0.00423125
