@@ -637,6 +637,16 @@ lengthcl <- lengthcl %>%
 
 norw_dat <- left_join(subgroup, lengthcl, by=c('HaulID','Species'))
 
+# ----------------------------DANI ------------------------------------------------
+# many cephalopod do not have a measured length observation and we can therefore not estimate 
+# weight based on the length-weight relationship
+# as a hack we can use the weight and multiply with the catchability factor 
+# for all with NA
+norw_dat$wgtlencpue_q <- ifelse(is.na(norw_dat$wgtlencpue_q) & norw_dat$Class == "Cephalopoda",norw_dat$wtcpue * 0.3, norw_dat$wgtlencpue_q)
+
+# now reasonable spatial coverage of squid
+# ----------------------------DANI ------------------------------------------------
+
 save(norw_dat, file='data/NORBTSdec2022_Ceph.RData')
 
 
