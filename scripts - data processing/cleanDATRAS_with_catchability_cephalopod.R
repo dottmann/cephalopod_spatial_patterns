@@ -7,7 +7,7 @@
 #### Coding updated with gear efficiency estimates based on Walker et al. 2017
 #### see https://doi.org/10.1093/icesjms/fsw250
 
-#### updated Daniel van Denderen and Daniel Ottman November 2022
+#### updated Daniel van Denderen and Daniel Ottmann November 2022
 #### Coding updated to include the class cephalopoda
 #############################################################
 Sys.setenv(LANG = "en")
