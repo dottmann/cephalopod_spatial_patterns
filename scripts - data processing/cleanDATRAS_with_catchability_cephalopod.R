@@ -268,6 +268,8 @@ df_test <- subset(df_test, class %in% c("Elasmobranchii","Actinopteri","Holoceph
                                         "Myxini","Petromyzonti","Cephalopoda")) 
 # get all cephalopoda
 ceph <- subset(df_test,df_test$class == "Cephalopoda")
+yy <- subset(xx, AphiaID %in% survey$AphiaID ) # Get cephalopoda without length measurements
+
 
 keep_sp <- data.frame(df_test) # subsetting
 keep_sp <- data.frame(unlist(keep_sp$valid_name)) #unlisting
@@ -290,7 +292,7 @@ dat.ices$ScientificName <- NULL
 survey <- dat.ices
 
 survey <- survey %>%
-  select(Survey, HaulID, StatRec, Year, Month, Quarter, Season, ShootLat, ShootLong, HaulDur, Area.swept, Area.doors, 
+  dplyr::select(Survey, HaulID, StatRec, Year, Month, Quarter, Season, ShootLat, ShootLong, HaulDur, Area.swept, Area.doors, 
          Gear, Depth, SBT, SST,AphiaID, Family, Genus, Species, CatIdentifier, numcpue, wtcpue, numh, wgth, num, wgt, Length, numlencpue, numlenh)
 
 ### Code to integrate from Anna Rindorf on species bycatch corrections
@@ -319,6 +321,13 @@ survey <- survey %>%
                           'Lesueurigobius'='Gobius','Gobius cobitis'='Gobius','Gobius niger'='Gobius',
                           'Leusueurigobius friesii'='Gobius','Neogobius melanostomus'='Gobius',
                           'Neogobius'='Gobius'))
+
+
+# ------------------------------------------------------------------------------
+# CHECK % OF CEPHALOPODA ENTRIES LACKING LENGTH MEASUREMENT 
+# ------------------------------------------------------------------------------
+survey_ceph <- subset(survey, AphiaID %in% ceph$AphiaID)
+100 * nrow(yy) / (nrow(yy) + nrow(survey_ceph))
 
 # ------------------------------------------------------------------------------
 # ADD GEAR EFFICIENCY CORRECTIONS 
