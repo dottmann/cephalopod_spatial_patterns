@@ -7,7 +7,7 @@
 #### Coding updated with gear efficiency estimates based on Walker et al. 2017
 #### see https://doi.org/10.1093/icesjms/fsw250
 
-#### updated Daniel van Denderen and Daniel Ottmann November 2022
+#### updated Daniel van Denderen and Daniel Ottmann January 2023
 #### Coding updated to include the class cephalopoda
 #############################################################
 Sys.setenv(LANG = "en")
@@ -255,6 +255,12 @@ spsub <- wm_record(aphia_list[spt[j]:spt[j+1]])
 my_sp_taxo <- rbind(my_sp_taxo,spsub)
 }
 
+# Remove duplicates:
+my_sp_taxo <- my_sp_taxo[!duplicated(my_sp_taxo), ]
+
+# Save the table:
+# save(my_sp_taxo, file = "data/ices_spp_taxo.Rdata")
+
 # row binds all the results and pass to data frame. 
 df_test <- as.data.frame(my_sp_taxo)
 df_test$url <- df_test$lsid <- df_test$citation <- NULL
@@ -270,6 +276,8 @@ df_test <- subset(df_test, class %in% c("Elasmobranchii","Actinopteri","Holoceph
 ceph <- subset(df_test,df_test$class == "Cephalopoda")
 yy <- subset(xx, AphiaID %in% survey$AphiaID ) # Get cephalopoda without length measurements
 
+# Outfile ceph data to get their traits:
+# write.table(ceph, "C:/Users/danot/My Drive/_postdoc/projects/cephalopods_WP1/traits data base/ices_cephalopoda_traits.txt", append = F, quote = F, sep = "\t", row.names = F, col.names = T)
 
 keep_sp <- data.frame(df_test) # subsetting
 keep_sp <- data.frame(unlist(keep_sp$valid_name)) #unlisting
@@ -468,8 +476,19 @@ datalw <- read.csv('traits and species/taxa.DATRAS.FB_filled5.csv') %>%
 
 ceph_q <- cbind(ceph_q,survey[match(ceph_q$AphiaID,survey$AphiaID),c("Species")])
 colnames(ceph_q)[ncol(ceph_q)] <- "Taxon"
+
+# Add cephalopod traits:
+ceph_traits <- read.delim("C:/Users/danot/My Drive/_postdoc/projects/cephalopods_WP1/traits data base/ices_cephalopoda_traits2.txt", sep = "\t", stringsAsFactors = T)
+ceph_traits <- ceph_traits %>%
+  dplyr::select(Taxon = scientificname,
+                a = LW_a,
+                b = LW_b)
+
 datalw_ceph <- data.frame(lme=1000,level="species",FB_E_Code=NA,source=NA,type.length=NA,
-                          taxo=NA,b=3,a=0.01,Taxon=ceph_q$Taxon)
+                          taxo=NA, Taxon=ceph_q$Taxon) %>%
+  left_join(ceph_traits)
+
+
 datalw_ceph$lme <- as.factor(datalw_ceph$lme)
 datalw <- rbind(as.data.frame(datalw),datalw_ceph)
 
