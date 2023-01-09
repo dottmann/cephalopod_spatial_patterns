@@ -376,6 +376,7 @@ survey %>%
   filter(Species %in% ceph$valid_name) %>% 
   summarise(mean_q = mean(q_eff)) # Looks very low to me
 
+# Correct catches:
 survey <- survey %>%
   mutate(numlencpue_q    = numlencpue/q_eff,
          numlenh_q       = numlenh/q_eff) %>%
