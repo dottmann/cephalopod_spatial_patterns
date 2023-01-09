@@ -370,6 +370,9 @@ survey <- cbind(survey,uni[match(survey$uni,uni$uni),c("Efficiency")])
 colnames(survey)[ncol(survey)] <- "q_eff"  
 survey$q_eff <- ifelse(survey$q_eff<0.01, 0.01,survey$q_eff) # to avoid too high corrections at the boundaries of the GAM model (Walker) -- check sensitivity!!
 
+# Check catchability for cephalopods:
+survey %>% dplyr::select(q_eff, Species) %>% filter(Species %in% ceph$valid_name) %>% summarise(mean_q = mean(q_eff)) # Looks very low to me
+
 survey <- survey %>%
   mutate(numlencpue_q    = numlencpue/q_eff,
          numlenh_q       = numlenh/q_eff) %>%
