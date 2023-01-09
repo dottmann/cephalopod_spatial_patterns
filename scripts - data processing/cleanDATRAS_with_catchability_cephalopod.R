@@ -376,6 +376,14 @@ survey %>%
   filter(Species %in% ceph$valid_name) %>% 
   summarise(mean_q = mean(q_eff)) # Looks very low to me
 
+# Weighted by biomass:
+survey %>% 
+  filter(Species %in% ceph$valid_name & wtcpue > 0 & !is.na(q_eff) & Length > 0) %>%
+  group_by(Species) %>%
+  summarise(mean_efficiency_cpue_cephalopoda = sum(wtcpue * q_eff) / sum(wtcpue),
+         mean_efficiency_length_cephalopoda = sum(Length * q_eff) / sum(Length))  
+
+
 # Correct catches:
 survey <- survey %>%
   mutate(numlencpue_q    = numlencpue/q_eff,
