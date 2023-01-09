@@ -274,7 +274,6 @@ df_test <- subset(df_test, class %in% c("Elasmobranchii","Actinopteri","Holoceph
                                         "Myxini","Petromyzonti","Cephalopoda")) 
 # get all cephalopoda
 ceph <- subset(df_test,df_test$class == "Cephalopoda")
-yy <- subset(xx, AphiaID %in% survey$AphiaID ) # Get cephalopoda without length measurements
 
 # Outfile ceph data to get their traits:
 # write.table(ceph, "C:/Users/danot/My Drive/_postdoc/projects/cephalopods_WP1/traits data base/ices_cephalopoda_traits.txt", append = F, quote = F, sep = "\t", row.names = F, col.names = T)
@@ -486,7 +485,7 @@ ceph_traits <- ceph_traits %>%
 
 datalw_ceph <- data.frame(lme=1000,level="species",FB_E_Code=NA,source=NA,type.length=NA,
                           taxo=NA, Taxon=ceph_q$Taxon) %>%
-  left_join(ceph_traits)
+  left_join(ceph_traits, by = "Taxon")
 
 
 datalw_ceph$lme <- as.factor(datalw_ceph$lme)
