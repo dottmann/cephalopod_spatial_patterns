@@ -259,7 +259,7 @@ my_sp_taxo <- rbind(my_sp_taxo,spsub)
 my_sp_taxo <- my_sp_taxo[!duplicated(my_sp_taxo), ]
 
 # Save the table:
-# save(my_sp_taxo, file = "data/ices_spp_taxo.Rdata")
+# save(my_sp_taxo, file = "data/data datras/ices_spp_taxo.Rdata")
 
 # row binds all the results and pass to data frame. 
 df_test <- as.data.frame(my_sp_taxo)

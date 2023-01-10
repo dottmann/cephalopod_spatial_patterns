@@ -377,6 +377,9 @@ sp_list <- sp_list[,-3]
 sp_list$aphiaID <- as.character(sp_list$aphiaID)
 #setwd('C:/Users/auma/Documents/PhD DTU Aqua/(iv) Clean surveys/2. Clean taxonomy')
 #write.csv(sp_list, file='sp_list_europe_2004_2017.csv', row.names=FALSE)
+# save(sp_list, file = "traits and species/spp_norway.Rdata")
+# load(file = "traits and species/spp_norway.Rdata")
+
 
 # -------------------------DANI--------------------------------------------------
 # the norway names file doesn't need to be saved each run
@@ -386,7 +389,7 @@ sp_list$aphiaID <- as.character(sp_list$aphiaID)
 # I made a first check - Dani you might want to see if I missed anything
 # -------------------------DANI--------------------------------------------------
 
-clean.names <- read.csv('traits and species/check.Norway.names.WORMS_ceph.csv')
+clean.names <- read.delim('traits and species/check.Norway.names.WORMS_ceph.csv', sep = ";", stringsAsFactors = T)
 clean.names$aphiaID <- NULL
 setnames(sp_list, old='species.cleaned', new='ScientificName')
 # species = to match back with dataset
@@ -422,6 +425,12 @@ for (j in 1:(length(spt)-1)){
   spsub <- wm_record(aphia_list[spt[j]:spt[j+1]])
   my_sp_taxo <- rbind(my_sp_taxo,spsub)
 }
+
+# Remove duplicates:
+my_sp_taxo <- my_sp_taxo[!duplicated(my_sp_taxo), ]
+
+# Save the table:
+# save(my_sp_taxo, file = "data/data Norway/ices_spp_taxo.Rdata")
 
 # row binds all the results and pass to data frame. 
 df_test <- data.frame(my_sp_taxo)
