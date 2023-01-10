@@ -441,7 +441,7 @@ df_test$authority <- df_test$status <- df_test$taxonRankID <- df_test$isBrackish
 dim(subset(df_test, is.na(df_test$phylum))) # ok
 
 # In the class column, we only keep the 5 class we want, corresponding to fish species
-df_test <- subset(df_test, class %in% c("Elasmobranchii","Actinopteri","Holocephali","Myxini","Petromyzonti","Cephalopoda")) 
+df_test <- subset(df_test, class %in% c("Elasmobranchii","Actinopteri","Holocephali","Myxini","Petromyzonti","Cephalopoda", "Teleostei")) 
 
 # ------------------ DANI ------------------------------------------------------
 # get all cephalopoda - not used just so you can see what is included
