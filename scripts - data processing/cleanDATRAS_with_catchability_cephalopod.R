@@ -300,7 +300,8 @@ survey <- dat.ices
 
 survey <- survey %>%
   dplyr::select(Survey, HaulID, StatRec, Year, Month, Quarter, Season, ShootLat, ShootLong, HaulDur, Area.swept, Area.doors, 
-         Gear, Depth, SBT, SST,AphiaID, Family, Genus, Species, CatIdentifier, numcpue, wtcpue, numh, wgth, num, wgt, Length, numlencpue, numlenh)
+         Gear, Depth, SBT, SST,AphiaID, Family, Genus, Species, CatIdentifier, numcpue, wtcpue, numh, wgth, num, wgt, Length, numlencpue, numlenh) %>%
+  filter(Length != 0)
 
 ### Code to integrate from Anna Rindorf on species bycatch corrections
 survey <- data.frame(survey)
@@ -329,12 +330,6 @@ survey <- survey %>%
                           'Leusueurigobius friesii'='Gobius','Neogobius melanostomus'='Gobius',
                           'Neogobius'='Gobius'))
 
-
-# ------------------------------------------------------------------------------
-# CHECK % OF CEPHALOPODA ENTRIES LACKING LENGTH MEASUREMENT 
-# ------------------------------------------------------------------------------
-survey_ceph <- subset(survey, AphiaID %in% ceph$AphiaID)
-100 * nrow(yy) / (nrow(yy) + nrow(survey_ceph))
 
 # ------------------------------------------------------------------------------
 # ADD GEAR EFFICIENCY CORRECTIONS 
