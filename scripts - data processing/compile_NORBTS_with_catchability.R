@@ -432,6 +432,9 @@ my_sp_taxo <- my_sp_taxo[!duplicated(my_sp_taxo), ]
 # Save the table:
 # save(my_sp_taxo, file = "data/data Norway/ices_spp_taxo.Rdata")
 
+# Load table:
+load(file = "data/data Norway/ices_spp_taxo.Rdata")
+
 # row binds all the results and pass to data frame. 
 df_test <- data.frame(my_sp_taxo)
 df_test$url <- df_test$lsid <- df_test$citation <- NULL
@@ -446,6 +449,7 @@ df_test <- subset(df_test, class %in% c("Elasmobranchii","Actinopteri","Holoceph
 # ------------------ DANI ------------------------------------------------------
 # get all cephalopoda - not used just so you can see what is included
 ceph <- subset(df_test,df_test$class == "Cephalopoda")
+write.table(ceph, "C:/Users/danot/My Drive/_postdoc/projects/cephalopods_WP1/traits data base/norway_cephalopoda_traits.txt", append = F, quote = F, sep = ";", row.names = F, col.names = T)
 # ------------------ DANI -----------------------------------------------------
 
 # List of names to keep
@@ -582,9 +586,27 @@ norw_dat <- norw_dat %>%
 norw_dat <- left_join(norw_dat, datalw, by=c('Taxon','lme'))
 
 # -------------------DANI-------------------------------------------------------------
-# get length weight cephal - assumed to be a constant
-norw_dat$b <- ifelse(norw_dat$Class == "Cephalopoda", 3, norw_dat$b)
-norw_dat$a <- ifelse(norw_dat$Class == "Cephalopoda", 0.01, norw_dat$a)
+# get length weight cephal - load from separate file
+# Add cephalopod traits:
+ceph_traits <- read.delim("traits and species/norway_cephalopoda_traits2.txt", sep = "\t", stringsAsFactors = T)
+ceph_traits <- ceph_traits %>%
+  dplyr::select(Taxon = scientificname,
+                a = LW_a,
+                b = LW_b)
+ceph_taxa <- unique(ceph_traits$Taxon)
+
+# Create "exclude" function:
+"%ni%" <- Negate("%in%")
+
+datalw_ceph <- norw_dat %>%
+  filter(Taxon %in% ceph_taxa) %>%
+  dplyr::select(-a, -b) %>%
+  left_join(ceph_traits, by = "Taxon")
+
+norw_dat <- norw_dat %>%
+  filter(Taxon %ni% ceph_taxa) %>%
+  bind_rows(datalw_ceph)
+  
 # -------------------DANI-----------------------------------------------------------
 
 norw_dat$Length <- as.numeric(as.character(norw_dat$Length))
@@ -659,6 +681,15 @@ norw_dat$wgtlencpue_q <- ifelse(is.na(norw_dat$wgtlencpue_q) & norw_dat$Class ==
 save(norw_dat, file='data/NORBTSdec2022_Ceph.RData')
 
 
+# Try removing all hauls lacking at least 1 length measurement
+lacking <- unique(subset(norw_dat, is.na(wgtlencpue_q))$HaulID)
+temp <- norw_dat %>%
+  filter(HaulID %ni% lacking)
+# -----
+# Less than half the observations are left.
+# Ask Daniël about this
+
+
 ##########################################################################################
 #### CHECKING SPATIAL DISTRIBUTION OF DATA POINTS
 ##########################################################################################
@@ -666,7 +697,7 @@ save(norw_dat, file='data/NORBTSdec2022_Ceph.RData')
 # require(ggplot2)
 # 
 # coords <- norw_dat %>%
-#   filter(Month %in% c(8,9)) %>% 
+#   filter(Month %in% c(8,9)) %>%
 #   select(ShootLat, ShootLong, Survey) %>%
 #   distinct()
 # 
@@ -677,8 +708,8 @@ save(norw_dat, file='data/NORBTSdec2022_Ceph.RData')
 #   geom_point(cex = 1, col='navyblue')
 # 
 # coordY <- norw_dat %>%
-#   filter(Month %in% c(8,9)) %>% 
+#   filter(Month %in% c(8,9)) %>%
 #   select(HaulID, ShootLat, ShootLong, Survey, Year) %>%
-#   distinct() %>% 
-#   group_by(Year) %>% 
+#   distinct() %>%
+#   group_by(Year) %>%
 #   summarize(number = length(unique(HaulID)))

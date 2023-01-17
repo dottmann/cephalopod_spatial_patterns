@@ -487,7 +487,7 @@ ceph_q <- cbind(ceph_q,survey[match(ceph_q$AphiaID,survey$AphiaID),c("Species")]
 colnames(ceph_q)[ncol(ceph_q)] <- "Taxon"
 
 # Add cephalopod traits:
-ceph_traits <- read.delim("C:/Users/danot/My Drive/_postdoc/projects/cephalopods_WP1/traits data base/ices_cephalopoda_traits2.txt", sep = "\t", stringsAsFactors = T)
+ceph_traits <- read.delim("traits and species/ices_cephalopoda_traits2.txt", sep = "\t", stringsAsFactors = T)
 ceph_traits <- ceph_traits %>%
   dplyr::select(Taxon = scientificname,
                 a = LW_a,
