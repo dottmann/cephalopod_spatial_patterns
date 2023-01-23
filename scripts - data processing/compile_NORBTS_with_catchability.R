@@ -651,6 +651,14 @@ norw_dat$numlenh_q     <- norw_dat$numlenh/ norw_dat$q_eff
 norw_dat$wgtlenh_q     <- norw_dat$wgtlenh/ norw_dat$q_eff
 norw_dat$wgtlencpue_q  <- norw_dat$wgtlencpue/ norw_dat$q_eff
 
+# Calculate mean q_eff of cephaloopods:
+norw_dat %>%
+  filter(Class == "Cephalopoda") %>%
+  summarise(mean_efficiency_cephalopoda = mean(q_eff, na.rm = T),
+            mean_efficiency_cpue_cephalopoda = sum(wtcpue * q_eff, na.rm = T) / sum(wtcpue, na.rm = T),
+            mean_efficiency_length_cephalopoda = sum(Length * q_eff, na.rm = T) / sum(Length, na.rm = T))
+
+
 # part of data is per species sub-group, part of data is per length-class
 subgroup <- norw_dat[,c(1:25,40)]
 subgroup <- subgroup %>%

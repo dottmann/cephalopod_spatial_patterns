@@ -365,6 +365,11 @@ survey <- cbind(survey,uni[match(survey$uni,uni$uni),c("Efficiency")])
 colnames(survey)[ncol(survey)] <- "q_eff"  
 survey$q_eff <- ifelse(survey$q_eff<0.01, 0.01,survey$q_eff) # to avoid too high corrections at the boundaries of the GAM model (Walker) -- check sensitivity!!
 
+# # Keep q_eff for cephalopods = 0.3:
+# survey <- survey %>%
+#   mutate(q_eff = case_when(AphiaID %in% ceph_q$AphiaID ~ 0.3,
+#                            T ~ q_eff))
+
 # Check catchability for cephalopods:
 survey %>% 
   dplyr::select(q_eff, Species) %>% 
