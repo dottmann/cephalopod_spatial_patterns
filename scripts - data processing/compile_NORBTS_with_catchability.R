@@ -681,11 +681,12 @@ norw_dat <- left_join(subgroup, lengthcl, by=c('HaulID','Species'))
 # weight based on the length-weight relationship
 # as a hack we can use the weight and multiply with the catchability factor 
 # for all with NA
-norw_dat$wgtlencpue_q <- ifelse(is.na(norw_dat$wgtlencpue_q) & norw_dat$Class == "Cephalopoda",norw_dat$wtcpue * 0.3, norw_dat$wgtlencpue_q)
+norw_dat$wgtlencpue_q <- ifelse(is.na(norw_dat$wgtlencpue_q) & norw_dat$Class == "Cephalopoda", norw_dat$wtcpue * 0.3, norw_dat$wgtlencpue_q)
 
 # now reasonable spatial coverage of squid
 # ----------------------------DANI ------------------------------------------------
 
+# Save the data:
 save(norw_dat, file='data/NORBTSdec2022_Ceph.RData')
 
 
@@ -702,22 +703,23 @@ temp <- norw_dat %>%
 #### CHECKING SPATIAL DISTRIBUTION OF DATA POINTS
 ##########################################################################################
 
-# require(ggplot2)
-# 
-# coords <- norw_dat %>%
-#   filter(Month %in% c(8,9)) %>%
-#   select(ShootLat, ShootLong, Survey) %>%
-#   distinct()
-# 
-# ggplot(coords,aes(ShootLong,ShootLat))+
-#   #borders(xlim=c(-120,-110),ylim=c(40,41),fill="azure3",colour = "black") +
-#   borders(xlim=c(-20,50),ylim=c(54,82),fill="lightgrey",colour = "lightgrey") +
-#   coord_quickmap(xlim=c(-20,50),ylim=c(54,82))+theme_bw()+
-#   geom_point(cex = 1, col='navyblue')
-# 
-# coordY <- norw_dat %>%
-#   filter(Month %in% c(8,9)) %>%
-#   select(HaulID, ShootLat, ShootLong, Survey, Year) %>%
-#   distinct() %>%
-#   group_by(Year) %>%
-#   summarize(number = length(unique(HaulID)))
+require(ggplot2)
+
+coords <- norw_dat %>%
+  # filter(Month %in% c(8,9)) %>%
+  filter(ShootLat > 62) %>%
+  select(ShootLat, ShootLong, Survey) %>%
+  distinct()
+
+ggplot(coords, aes(ShootLong,ShootLat))+
+  #borders(xlim=c(-120,-110),ylim=c(40,41),fill="azure3",colour = "black") +
+  borders(xlim=c(-20,50),ylim=c(54,82),fill="lightgrey",colour = "lightgrey") +
+  coord_quickmap(xlim=c(-20,50),ylim=c(54,82))+theme_bw()+
+  geom_point(cex = 1, col='navyblue')
+
+coordY <- norw_dat %>%
+  filter(Month %in% c(8,9)) %>%
+  dplyr::select(HaulID, ShootLat, ShootLong, Survey, Year) %>%
+  distinct() %>%
+  group_by(Year) %>%
+  summarize(number = length(unique(HaulID)))
