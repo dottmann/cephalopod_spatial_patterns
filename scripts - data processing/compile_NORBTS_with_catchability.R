@@ -707,15 +707,25 @@ require(ggplot2)
 
 coords <- norw_dat %>%
   # filter(Month %in% c(8,9)) %>%
-  filter(ShootLat > 62) %>%
-  select(ShootLat, ShootLong, Survey) %>%
+  filter(ShootLat < 62, Class == "Cephalopoda") %>%
+  select(ShootLat, ShootLong, wgtlencpue_q) %>%
   distinct()
 
 ggplot(coords, aes(ShootLong,ShootLat))+
   #borders(xlim=c(-120,-110),ylim=c(40,41),fill="azure3",colour = "black") +
   borders(xlim=c(-20,50),ylim=c(54,82),fill="lightgrey",colour = "lightgrey") +
   coord_quickmap(xlim=c(-20,50),ylim=c(54,82))+theme_bw()+
-  geom_point(cex = 1, col='navyblue')
+  geom_point(aes(color = wgtlencpue_q), size = 2)
+
+
+norw_dat %>%
+  filter(Class == "Cephalopoda") %>%
+  group_by(HaulID, ShootLat) %>%
+  summarise(wgtlencpue_q = sum(wgtlencpue_q),
+            numlenh = sum(numlenh)) %>%
+  ggplot() +
+  geom_point(aes(x = ShootLat, y = wgtlencpue_q)) +
+  scale_y_log10()
 
 coordY <- norw_dat %>%
   filter(Month %in% c(8,9)) %>%
