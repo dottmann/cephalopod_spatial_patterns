@@ -751,7 +751,7 @@ cor(x = xx$wtcpue , y = xx$wgtlencpue, method = 'pearson')
 # SAVE DATA
 # ------------------------------------------------------------------------------
 survey3 <- survey3 %>% 
-  select(-num, -wgt) %>%
+  # select(-num, -wgt) %>%
   as.data.frame()
 
 survey3 <- cbind(survey3,survey[match(survey3$Taxon,survey$Taxon),c("AphiaID")])
