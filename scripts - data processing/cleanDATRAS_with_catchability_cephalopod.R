@@ -270,7 +270,7 @@ df_test$authority <- df_test$status <- df_test$taxonRankID <- df_test$isBrackish
 dim(subset(df_test, is.na(df_test$phylum))) # ok
 
 # In the class column, we only keep the 5 groups we want. 
-df_test <- subset(df_test, class %in% c("Elasmobranchii","Actinopteri","Holocephali",
+df_test <- subset(df_test, class %in% c("Elasmobranchii","Teleostei","Holocephali",
                                         "Myxini","Petromyzonti","Cephalopoda")) 
 # get all cephalopoda
 ceph <- subset(df_test,df_test$class == "Cephalopoda")
