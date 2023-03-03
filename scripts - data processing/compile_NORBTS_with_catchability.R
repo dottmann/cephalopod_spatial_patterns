@@ -686,17 +686,45 @@ norw_dat$wgtlencpue_q <- ifelse(is.na(norw_dat$wgtlencpue_q) & norw_dat$Class ==
 # now reasonable spatial coverage of squid
 # ----------------------------DANI ------------------------------------------------
 
+norw   <- norw_dat
+
+# rename corrected data based on gear efficiency q's
+colnames(norw)[which(names(norw)=="wgtlencpue_q")] <- "wtcpue_q" 
+colnames(norw)[which(names(norw)=="wgtlenh_q")]    <- "wgth_q"
+
+# some species had no length information but wtcpue is available
+geareff <- read.csv(file = "data/Walkeretal_2017_supp/EfficiencyTab.csv",sep=",",header = T)
+norw <- cbind(norw,geareff[match(norw$Code,geareff$Code),c("Group")])
+norw$Code <- norw[,ncol(norw)]; norw <- norw[,-(ncol(norw))]
+
+norw$wtcpue_q <- ifelse(is.na(norw$wtcpue_q) & norw$Code =="GRP1", norw$wtcpue /0.01856618,norw$wtcpue_q)
+norw$wtcpue_q <- ifelse(is.na(norw$wtcpue_q) & norw$Code =="GRP2", norw$wtcpue /0.22182677,norw$wtcpue_q)
+norw$wtcpue_q <- ifelse(is.na(norw$wtcpue_q) & norw$Code =="GRP3", norw$wtcpue /0.29919480,norw$wtcpue_q)
+norw$wtcpue_q <- ifelse(is.na(norw$wtcpue_q) & norw$Code =="GRP4", norw$wtcpue /0.39701479,norw$wtcpue_q)
+norw$wtcpue_q <- ifelse(is.na(norw$wtcpue_q) & norw$Code =="GRP5", norw$wtcpue /0.25488862,norw$wtcpue_q)
+norw$wtcpue_q <- ifelse(is.na(norw$wtcpue_q) & norw$Code =="GRP6", norw$wtcpue /0.22871213,norw$wtcpue_q)
+norw$wtcpue_q <- ifelse(is.na(norw$wtcpue_q) & norw$Code =="GRP7", norw$wtcpue /0.30596754,norw$wtcpue_q)
+
+# remove hauls where cpue data is not available (note: many hauls before 1989)
+noCpue <- subset(norw,norw$wgth >0 & is.na(norw$wtcpue))
+noCpue <- unique(noCpue$HaulID)
+
+# remove all within shallow North Sea - already (partly) included in DATRAS
+norinNS <- subset(norw,norw$ShootLat < 61.89 & norw$Depth <200)
+norinNS <- unique(norinNS$HaulID)
+
+norw <- norw %>%
+  filter(!(HaulID %in% c(noCpue,norinNS))) %>%
+  dplyr::select(HaulID,Survey,Gear,Year,Month,ShootLong,ShootLat,Area.swept,Depth,Family,Species,wgth,wtcpue,wgth_q,wtcpue_q)
+
+
+# Check missing CPUEs:
+nrow(subset(norw, is.na(wtcpue_q))) / nrow(norw)
+
+
 # Save the data:
 save(norw_dat, file='data/NORBTSdec2022_Ceph.RData')
 
-
-# Try removing all hauls lacking at least 1 length measurement
-lacking <- unique(subset(norw_dat, is.na(wgtlencpue_q))$HaulID)
-temp <- norw_dat %>%
-  filter(HaulID %ni% lacking)
-# -----
-# Less than half the observations are left.
-# Ask Daniël about this
 
 
 ##########################################################################################
