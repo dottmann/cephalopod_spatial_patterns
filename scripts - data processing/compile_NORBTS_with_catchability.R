@@ -715,12 +715,15 @@ norinNS <- unique(norinNS$HaulID)
 
 norw <- norw %>%
   filter(!(HaulID %in% c(noCpue,norinNS))) %>%
-  dplyr::select(HaulID,Survey,Gear,Year,Month,ShootLong,ShootLat,Area.swept,Depth,Family,Species,wgth,wtcpue,wgth_q,wtcpue_q)
+  dplyr::select(HaulID,Survey,Gear,Year,Month,ShootLong,ShootLat,Area.swept,Depth,Class,Family,Species,wgth,wtcpue,wgth_q,wtcpue_q) %>%
+  rename(wgtlencpue_q = wtcpue_q)
 
 
 # Check missing CPUEs:
-nrow(subset(norw, is.na(wtcpue_q))) / nrow(norw)
+nrow(subset(norw, is.na(wgtlencpue_q))) / nrow(norw)
+nrow(subset(norw_dat, is.na(wgtlencpue_q))) / nrow(norw_dat)
 
+norw_dat <- norw
 
 # Save the data:
 save(norw_dat, file='data/NORBTSdec2022_Ceph.RData')
