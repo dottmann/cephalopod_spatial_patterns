@@ -682,6 +682,7 @@ norw_dat <- left_join(subgroup, lengthcl, by=c('HaulID','Species'))
 # as a hack we can use the weight and multiply with the catchability factor 
 # for all with NA
 norw_dat$wgtlencpue_q <- ifelse(is.na(norw_dat$wgtlencpue_q) & norw_dat$Class == "Cephalopoda", norw_dat$wtcpue * 0.3, norw_dat$wgtlencpue_q)
+norw_dat$wgtlencpue <- ifelse(is.na(norw_dat$wgtlencpue) & norw_dat$Class == "Cephalopoda", norw_dat$wtcpue, norw_dat$wgtlencpue)
 
 # now reasonable spatial coverage of squid
 # ----------------------------DANI ------------------------------------------------
@@ -715,7 +716,7 @@ norinNS <- unique(norinNS$HaulID)
 
 norw <- norw %>%
   filter(!(HaulID %in% c(noCpue,norinNS))) %>%
-  dplyr::select(HaulID,Survey,Gear,Year,Month,ShootLong,ShootLat,Area.swept,Depth,Class,Family,Species,wgth,wtcpue,wgth_q,wtcpue_q) %>%
+  dplyr::select(HaulID,Survey,Gear,Year,Month,ShootLong,ShootLat,Area.swept,Depth,Class,Family,Species,wgth,wgtlencpue,wtcpue,wgth_q,wtcpue_q) %>%
   rename(wgtlencpue_q = wtcpue_q)
 
 
