@@ -1,0 +1,207 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: US Large Marine Ecosystem Program
+      Publication_Date: 2002
+      Title: 64 Large Marine Ecosystems of the World
+      Geospatial_Data_Presentation_Form: vector digital data
+      Publication_Information:
+        Publication_Place: Narragansett, RI
+        Publisher: NOAA Fisseries, Narragansett Lab
+      Online_Linkage: http://www.lme.noaa.gov
+  Description:
+    Abstract:
+      LMEs are natural regions of ocean space encompassing coastal waters from river basins and estuaries to the seaward boundary of continental shelves and the outer margins of coastal currents. They are relatively large regions of 200,000 km2 or greater, the natural boundaries of which are based on four ecological criteria: bathymetry, hydrography, productivity, and trophically related populations.
+
+      The theory, measurement, and modeling relevant to monitoring the changing states of LMEs are imbedded in reports on ecosystems with multiple steady states, and on the pattern formation and spatial diffusion within ecosystems.  The concept that critical processes controlling the structure and function of biological communities can best be addressed on a regional basis has been applied to the ocean by using LMEs as the distinct units for marine resources assessment, monitoring, and management.
+    Purpose:
+      Since 1984, the NOAA Fisheries Service's Large Marine Ecosystems (LME) Program has been engaged in the development and implementation of an ecosystem-based approach to support assessment and management of marine resources and habitats. Five linked program modules have been developed for introducing the LME approach: productivity, fish and fisheries, pollution and ecosystem health, socioeconomics, and governance.  Taken together, these modules provide time-series measurements used to support actions for the recovery, sustainability, and management of marine resources and habitats.
+
+      A global effort is underway by NOAA in partnership with the World Conservation Union (IUCN), the UN's Intergovernmental Oceanographic Commission (IOC), and other UN agencies to improve the long-term sustainability of resources and environments of the world's 64 LMEs and linked watersheds. Scientific and technical assistance is provided to developing countries committed to policies and actions for eliminating transboundary environmental and resource-use practices that lead to serious degradation of coastal environments and their linked watersheds, and to losses in biodiversity and food security.
+    Supplemental_Information: Visit the LME website for more information:  http://www.lme.noaa.gov
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Single_Date/Time:
+        Calendar_Date: 2002
+    Currentness_Reference: publication date
+  Status:
+    Progress: In work
+    Maintenance_and_Update_Frequency: Irregular
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -180.000000
+      East_Bounding_Coordinate: 180.000000
+      North_Bounding_Coordinate: 82.893036
+      South_Bounding_Coordinate: -85.470284
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: REQUIRED: Reference to a formally registered thesaurus or a similar authoritative source of theme keywords.
+      Theme_Keyword: Large Marine Ecosystem
+      Theme_Keyword: LME
+      Theme_Keyword: Linked Watersheds
+    Place:
+      Place_Keyword: World
+      Place_Keyword: Global
+  Access_Constraints: None
+  Use_Constraints: Cite US LME Program
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Person_Primary:
+        Contact_Person: Kenneth Sherman
+        Contact_Organization: National Marine Fisheries Service
+      Contact_Position: Director
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: National Marine Fisheries Service
+        Address: Narragansett Laboratory
+        Address: 28 Tarzwell Drive
+        City: Narragansett
+        State_or_Province: Rhode Island
+        Postal_Code: 02882
+        Country: USA
+      Contact_Voice_Telephone: 401-782-3211
+      Contact_Facsimile_Telephone: 401-782-3201
+      Contact_Electronic_Mail_Address: Kenneth.Sherman@NOAA.gov
+      Hours_of_Service: M-F
+  Data_Set_Credit:
+    Large Marine Ecosystem Program 
+    NOAA-Fisheries 
+    Narragansett Laboratory 
+    Narragansett, R.I. 02882 
+    Kenneth.Sherman@NOAA.gov 
+    www.lme.noaa.gov
+  Security_Information:
+    Security_Classification: Unclassified
+  Native_Data_Set_Environment: Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3000
+Data_Quality_Information:
+  Logical_Consistency_Report: LME boundaries werre drafted from multiple sources including global bathymetry, current patterns, and consultations with the Environmental Ministers of participating countries.  These boundaries should be used for general reference.
+  Completeness_Report: Boundaries are subject to change.
+  Lineage:
+    Process_Step:
+      Process_Description: All boundaries were generated using the Environment Systems Research Institute (ESRI) Geographic Information System (GIS) software.
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: University of Rhode Island's Environmental Data Center
+            Contact_Person: Research Associate
+          Contact_Position: Research Associate
+          Contact_Address:
+            Address_Type: mailing and physical address
+            Address: University of Rhode Island
+            Address: Coastal Institute at Kingston
+            Address: 1 Greenhouse Road
+            City: Kingston
+            State_or_Province: Rhode Island
+            Postal_Code: 02881
+            Country: USA
+          Contact_Voice_Telephone: 401-874-5054
+          Contact_Facsimile_Telephone: 401-874-4561
+          Hours_of_Service: M-F
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: G-polygon
+      Point_and_Vector_Object_Count: 1480
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Geographic:
+      Latitude_Resolution: 0.000000
+      Longitude_Resolution: 0.000000
+      Geographic_Coordinate_Units: Decimal degrees
+    Geodetic_Model:
+      Horizontal_Datum_Name: D_WGS_1984
+      Ellipsoid_Name: WGS_1984
+      Semi-major_Axis: 6378137.000000
+      Denominator_of_Flattening_Ratio: 298.257224
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: LMEs_64
+    Attribute:
+      Attribute_Label: OBJECTID
+      Attribute_Definition: Internal feature number.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: Shape
+      Attribute_Definition: Feature geometry.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Coordinates defining the features.
+    Attribute:
+      Attribute_Label: LME_NUMBER
+      Attribute_Definition: LME Identification Number
+      Attribute_Definition_Source: LME Program Office
+    Attribute:
+      Attribute_Label: LME_NAME
+      Attribute_Definition: LME Name
+      Attribute_Definition_Source: LME Program Office
+    Attribute:
+      Attribute_Label: Shape_Length
+      Attribute_Definition: Length of feature in internal units.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Positive real numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: Shape_Area
+      Attribute_Definition: Area of feature in internal units squared.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Positive real numbers that are automatically generated.
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Person_Primary:
+        Contact_Person: Kenneth Sherman
+        Contact_Organization: National Marine Fisheries Service
+      Contact_Position: Director
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: National Marine Fisheries Service
+        Address: Narragansett Laboratory
+        Address: 28 Tarzwell Drive
+        City: Narragansett
+        State_or_Province: Rhode Island
+        Postal_Code: 02882
+        Country: USA
+      Contact_Voice_Telephone: 401-782-3211
+      Contact_Facsimile_Telephone: 401-782-3201
+      Contact_Electronic_Mail_Address: Kenneth.Sherman@NOAA.gov
+      Hours_of_Service: M-F
+  Resource_Description: Downloadable Data
+  Distribution_Liability: For reference only.  Distributor assumes no liability.
+  Standard_Order_Process:
+    Ordering_Instructions: Available online at:  http://www.lme.noaa.gov
+Metadata_Reference_Information:
+  Metadata_Date: 20000101
+  Metadata_Review_Date: 20090930
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: University of Rhode Island's Environmental Data Center
+        Contact_Person: Research Associate
+      Contact_Position: Research Associate
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: University of Rhode Island
+        Address: Coastal Institute at Kingston
+        Address: 1 Greenhouse Road
+        City: Kingston
+        State_or_Province: Rhode Island
+        Postal_Code: 02881
+        Country: USA
+      Contact_Voice_Telephone: 401-874-5054
+      Contact_Facsimile_Telephone: 401-874-4561
+      Hours_of_Service: M-F
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Time_Convention: local time
+  Metadata_Access_Constraints: None
+  Metadata_Use_Constraints: None
+  Metadata_Security_Information:
+    Metadata_Security_Classification: Unclassified
+  Metadata_Extensions:
+    Online_Linkage: http://www.esri.com/metadata/esriprof80.html
+    Profile_Name: ESRI Metadata Profile

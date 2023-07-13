@@ -1,0 +1,89 @@
+spp	asymptotic_weight	asympototic_length	K	Efficiency	class	genus	superorder	lifespan
+Abralia veranyi	9	4.9		0.3	Cephalopoda	Abralia	decapodiformes	9
+Abraliopsis felis	8	4.5		0.3	Cephalopoda	Abraliopsis	decapodiformes	9
+Alloteuthis media	35	13.2		0.3	Cephalopoda	Alloteuthis	decapodiformes	18
+Alloteuthis subulata	45	184		0.3	Cephalopoda	Alloteuthis	decapodiformes	9
+Bathypolypus arcticus	400	7		0.3	Cephalopoda	Bathypolypus	octopodiformes	18
+Belonella borealis	300	50		0.3	Cephalopoda	Belonella	decapodiformes	30
+Benthoctopus	219	14.2		0.3	Cephalopoda	Benthoctopus	octopodiformes	18
+Benthoctopus leioderma	148	7		0.3	Cephalopoda	Benthoctopus	octopodiformes	18
+Benthoctopus oregonensis	180	9.3		0.3	Cephalopoda	Benthoctopus	octopodiformes	18
+Benthoctopus sibiricus	180	9.3		0.3	Cephalopoda	Benthoctopus	octopodiformes	18
+Benthoctopus sp.	219	14.2		0.3	Cephalopoda	Benthoctopus	octopodiformes	18
+Berryteuthis anonychus	116	15		0.3	Cephalopoda	Berryteuthis	decapodiformes	12
+Berryteuthis magister	618	18		0.3	Cephalopoda	Berryteuthis	decapodiformes	24
+Cephalopoda	400	17.5		0.3	Cephalopoda	Cephalopoda	decapodiformes	12
+Cephalopoda spp.	400	17.5		0.3	Cephalopoda	Cephalopoda	octopodiformes	12
+Chiroteuthis calyx	70	10		0.3	Cephalopoda	Chiroteuthis	decapodiformes	26
+Chiroteuthis sp.	70	10		0.3	Cephalopoda	Chiroteuthis	decapodiformes	24
+Cranchia scabra	3	2		0.3	Cephalopoda	Cranchia	decapodiformes	9
+Cranchiidae	100	8		0.3	Cephalopoda	Cranchiidae	decapodiformes	9
+Doryteuthis opalescens	148	19	1	0.3	Cephalopoda	Doryteuthis	decapodiformes	12
+Dosidicus gigas	3000	80	1.2	0.3	Cephalopoda	Dosidicus	decapodiformes	12
+Eledone cirrhosa	1200	19	0.4	0.3	Cephalopoda	Eledone	octopodiformes	30
+Eledone moschata	1414	19		0.3	Cephalopoda	Eledone	octopodiformes	20
+Enteroctopus dofleini	50000	60		0.3	Cephalopoda	Enteroctopus	octopodiformes	36
+Galiteuthis phyllura	300	50		0.3	Cephalopoda	Galiteuthis	decapodiformes	30
+Gonatidae	300	20		0.3	Cephalopoda	Gonatidae	decapodiformes	24
+Gonatopsis borealis	1500	30		0.3	Cephalopoda	Gonatopsis	decapodiformes	12
+Gonatopsis makko	3000	62		0.3	Cephalopoda	Gonatopsis	decapodiformes	18
+Gonatopsis sp.	2250	46		0.3	Cephalopoda	Gonatopsis	decapodiformes	12
+Gonatus	140	13		0.3	Cephalopoda	Gonatus	decapodiformes	24
+Gonatus berryi	219	19		0.3	Cephalopoda	Gonatus	decapodiformes	24
+Gonatus middendorffi	2400	55		0.3	Cephalopoda	Gonatus	decapodiformes	24
+Gonatus onyx	106	15		0.3	Cephalopoda	Gonatus	decapodiformes	24
+Gonatus pyros	138	13		0.3	Cephalopoda	Gonatus	decapodiformes	24
+Gonatus fabricii	526	30		0.3	Cephalopoda	Gonatus	decapodiformes	24
+Gonatus sp.	140	13		0.3	Cephalopoda	Gonatus	decapodiformes	24
+Graneledone boreopacifica	300	14.5		0.3	Cephalopoda	Graneledone	octopodiformes	60
+Histioteuthis dofleini	1400	24		0.3	Cephalopoda	Histioteuthis	decapodiformes	12
+Histioteuthis heteropsis	1400	24		0.3	Cephalopoda	Histioteuthis	decapodiformes	12
+Histioteuthis hoylei	1400	24		0.3	Cephalopoda	Histioteuthis	decapodiformes	12
+Histioteuthis sp.	1400	24		0.3	Cephalopoda	Histioteuthis	decapodiformes	12
+Illex conidetii	1400	38	0.2	0.3	Cephalopoda	Illex	decapodiformes	12
+Illex illecebrosus	720	34	0.7	0.3	Cephalopoda	Illex	decapodiformes	12
+Japetella diaphana	300	8.5		0.3	Cephalopoda	Japetella	octopodiformes	36
+Loliginidae	280	900		0.3	Cephalopoda	Loliginidae	decapodiformes	12
+Loligo forbesii	8300	93.4		0.3	Cephalopoda	Loligo	decapodiformes	24
+Loligo opalescens	148	19	1	0.3	Cephalopoda	Loligo	decapodiformes	12
+Loligo pealeii	926	46.5	0.6	0.3	Cephalopoda	Loligo	decapodiformes	12
+Loligo pleii	410	37		0.3	Cephalopoda	Loligo	decapodiformes	6
+Loligo spp.	900	45		0.3	Cephalopoda	Loligo	decapodiformes	12
+Loligo vulgaris	3000	93.7	0.1	0.3	Cephalopoda	Loligo	decapodiformes	12
+Lolliguncula brevis	88	12		0.3	Cephalopoda	Lolliguncula	decapodiformes	12
+Moroteuthis robusta	50000	230		0.3	Cephalopoda	Moroteuthis	decapodiformes	36
+Octopoda	1000	10		0.3	Cephalopoda	Octopoda	octopodiformes	12
+Octopodidae spp.	1000	10		0.3	Cephalopoda	Octopodidae	octopodiformes	12
+Octopoteuthis deletron	300	17		0.3	Cephalopoda	Octopoteuthis	decapodiformes	24
+Octopus	1000	10		0.3	Cephalopoda	Octopus	octopodiformes	12
+Octopus briareus	1500	12		0.3	Cephalopoda	Octopus	octopodiformes	12
+Octopus californicus	600	14		0.3	Cephalopoda	Octopus	octopodiformes	12
+Octopus dofleini	70000	60		0.3	Cephalopoda	Octopus	octopodiformes	48
+Octopus joubini	30	4.5		0.3	Cephalopoda	Octopus	octopodiformes	6
+Octopus rubescens	400	10		0.3	Cephalopoda	Octopus	octopodiformes	15
+Octopus sp.	1000	10		0.3	Cephalopoda	Octopus	octopodiformes	12
+Octopus vulgaris	6300	25		0.3	Cephalopoda	Octopus	octopodiformes	12
+Ommastrephes bartramii	6000	50		0.3	Cephalopoda	Ommastrephes	decapodiformes	12
+Ommastrephidae	1400	24		0.3	Cephalopoda	Ommastrephidae	decapodiformes	12
+Onychoteuthidae	1200	37		0.3	Cephalopoda	Onychoteuthidae	decapodiformes	12
+Onychoteuthis banksii	1200	37		0.3	Cephalopoda	Onychoteuthis	decapodiformes	12
+Onychoteuthis borealijaponica	1100	37	0.5	0.3	Cephalopoda	Onychoteuthis	decapodiformes	12
+Opisthoteuthis californiana	30	8		0.3	Cephalopoda	Opisthoteuthis	octopodiformes	27
+Rossia	97	9		0.3	Cephalopoda	Rossia	decapodiformes	21
+Rossia pacifica	97	9		0.3	Cephalopoda	Rossia	decapodiformes	21
+Sasakiopus salebrosus	40	6.5		0.3	Cephalopoda	Sasakiopus	octopodiformes	30
+Semirossia tenera	33	5		0.3	Cephalopoda	Semirossia	decapodiformes	12
+Sepia elegans	60	8.9		0.3	Cephalopoda	Sepia	decapodiformes	15
+Sepia officinalis	4000	49	0.7	0.3	Cephalopoda	Sepia	decapodiformes	21
+Sepia orbignyana	150	12		0.3	Cephalopoda	Sepia	decapodiformes	15
+Sepietta oweniana	15	5		0.3	Cephalopoda	Sepietta	decapodiformes	9
+Sepiola atlantica	3	2.4		0.3	Cephalopoda	Sepiola	decapodiformes	9
+Sepiolidae	50	8		0.3	Cephalopoda	Sepiolidae	decapodiformes	9
+Stigmatoteuthis dofleini	1400	24		0.3	Cephalopoda	Stigmatoteuthis	decapodiformes	12
+Stoloteuthis leucoptera	3	1.8		0.3	Cephalopoda	Stoloteuthis	decapodiformes	9
+Taningia danae	161000	170		0.3	Cephalopoda	Taningia	decapodiformes	36
+Taonius pavo	300	66		0.3	Cephalopoda	Taonius	decapodiformes	12
+Teuthida	720	34		0.3	Cephalopoda	Teuthida	decapodiformes	12
+Todarodes sagittatus	16400	75		0.3	Cephalopoda	Todarodes	decapodiformes	24
+Todaropsis eblanae	1100	29		0.3	Cephalopoda	Todaropsis	decapodiformes	9
+Vampyroteuthis infernalis	450	13		0.3	Cephalopoda	Vampyroteuthis	octopodiformes	36
